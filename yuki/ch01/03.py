@@ -1,3 +1,5 @@
 str = input()
+str = str.replace(',','')
+str = str.replace('.','')
 strlist = str.split(" ")
 print([len(i) for i in strlist])
