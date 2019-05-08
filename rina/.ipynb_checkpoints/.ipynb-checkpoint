@@ -312,6 +312,50 @@
   },
   {
    "cell_type": "code",
+   "execution_count": 29,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "埼玉県: 3\n",
+      "山形県: 3\n",
+      "山梨県: 3\n",
+      "群馬県: 3\n",
+      "岐阜県: 2\n",
+      "静岡県: 2\n",
+      "愛知県: 2\n",
+      "千葉県: 2\n",
+      "高知県: 1\n",
+      "和歌山県: 1\n",
+      "愛媛県: 1\n",
+      "大阪府: 1\n"
+     ]
+    }
+   ],
+   "source": [
+    "#-*- coding: utf-8 -*-\n",
+    "#18.各行の1コラム目の文字列の出現頻度を求め，出現頻度の高い順に並べる\n",
+    "\n",
+    "# ファイルを読み込み、1列目のみ取り出して都道府県と回数の辞書にしておく\n",
+    "dict_1 = {}\n",
+    "with open('hightemp.txt', mode = 'r') as f:\n",
+    "\t# 1行読み込んでtab区切りでリストへ\n",
+    "\tfor text in f:\n",
+    "\t\tword_list = text.split('\\t')\n",
+    "\t\tif word_list[0] in dict_1.keys():\n",
+    "\t\t\tdict_1[word_list[0]] += 1\n",
+    "\t\telse:\n",
+    "\t\t\tdict_1[word_list[0]] = 1\n",
+    "\n",
+    "# dict_1をvalue順にソートして、keyを出力\n",
+    "for k, v in sorted(dict_1.items(), key=lambda x: -x[1]):\n",
+    "    print(str(k) + \": \" + str(v))"
+   ]
+  },
+  {
+   "cell_type": "code",
    "execution_count": null,
    "metadata": {},
    "outputs": [],
