@@ -4,3 +4,4 @@ with open('hightemp.txt', 'r') as f:
             line2 = line.replace('\t',' ')
             f2.write(line2)
 
+#expand hightemp.txt

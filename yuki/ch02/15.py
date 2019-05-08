@@ -4,3 +4,5 @@ with open('hightemp.txt', 'r') as f:
     N = int(input())
     for i in range(N):
         print(l[c-i-1])
+
+#tail -n 4 hightemp.txt
