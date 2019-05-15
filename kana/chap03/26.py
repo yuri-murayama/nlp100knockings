@@ -24,5 +24,7 @@ field_list = re.findall(pattern, base_info, flags = re.MULTILINE)
 
 # 辞書にして表示(強調マークアップ除去)
 d = {field[0]:remove(field[1]) for field in field_list}
-print(d)
+
+for k, v in d.items():
+    print('{0} : {1}'.format(k,v)) 		
 

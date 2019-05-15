@@ -16,7 +16,8 @@ pattern = r'^\|(.*?)\s\=\s(.*?)$'
 field_list = re.findall(pattern, base_info, flags = re.MULTILINE)
 
 # 辞書にして表示
-d = {field[0]:field[1] for field in field_list}
-print(d)
-				
+d = {field[0]:field[1].strip() for field in field_list}
+
+for k, v in d.items():
+    print('{0} : {1}'.format(k,v)) 				
 				
