@@ -7,17 +7,17 @@ article_England = getEngland()
 article_England_list = article_England.split("\n")
 
 for line in article_England_list:
-    category_line_level3 = re.search("^====(.*?)====$", line)
-    category_line_level2 = re.search("^===(.*?)===$", line)
-    category_line_level1 = re.search("^==(.*?)==$", line)
-    if category_line_level3 is not None:
-        print("{} level:3".format(category_line_level3.group(1)))
+    line_level3 = re.search("^====(.*?)====$", line)
+    line_level2 = re.search("^===(.*?)===$", line)
+    line_level1 = re.search("^==(.*?)==$", line)
+    if line_level3 is not None:
+        print("{} level:3".format(line_level3.group(1)))
 
-    elif category_line_level2 is not None:
-        print("{} level:2".format(category_line_level2.group(1)))
+    elif line_level2 is not None:
+        print("{} level:2".format(line_level2.group(1)))
 
-    elif category_line_level1 is not None:
-        print("{} level:1".format(category_line_level1.group(1)))
+    elif line_level1 is not None:
+        print("{} level:1".format(line_level1.group(1)))
 
 """
 ========
