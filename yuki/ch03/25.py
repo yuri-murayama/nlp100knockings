@@ -2,7 +2,7 @@ import re
 with open('jawiki-country-EU.json', 'r') as f:
     lines = f.read()
     m1 = re.search(r'(\{\{基礎情報\s国)',lines)
-    m2 = re.search(r'\n(\}\})',lines[m1.end():])
+    m2 = re.search(r'\n(\}\})',lines[m1.end():])    
     with open('kisojoho.json', 'w') as f2:
         f2.write(lines[m1.end()+1:m2.end()])
         
