@@ -1,12 +1,10 @@
 #-*- coding: utf-8 -*-
 
 import nlp40
-
-class Chunk():
-    def __init__(self, morphs, dst, srcs):
-        self.morphs = morphs
-        self.dst = dst
-        self.srcs = srcs
+import nlp41
+from graphviz import Digraph
+import CaboCha
+import re
 
 def make_chunk(lines):
     lst = []
@@ -32,7 +30,7 @@ def make_chunk(lines):
                     else:
                         srcs = []
 
-                    chunk = Chunk(ch, dst_lst[i], srcs)
+                    chunk = nlp41.Chunk(ch, dst_lst[i], srcs)
                     class_lst.append(chunk)
 
                 lst.append(class_lst)
@@ -60,7 +58,7 @@ def make_chunk(lines):
             else:
                 line = line.strip().split('\t')
                 # 空白のとき
-                if len(line)==2:
+                if len(line)==1: # ここの長さだけ変更
                     surface = ' '
                     l = line[0].split(',')
                 else:
@@ -74,18 +72,26 @@ def make_chunk(lines):
     return lst
 
 if __name__=='__main__':
-    with open("neko.txt.cabocha", "r", encoding="utf-8") as f:
-        lines = f.readlines()
-    lst = make_chunk(lines)
+    # 入力文
+    sentence = input()
+    
+    # CaboCha関連
+    c = CaboCha.Parser()
+    tree = c.parse(sentence)
 
-    for chunk in lst[7]:
-        morphs = chunk.morphs
-        dst = chunk.dst
-        print("morphs : ",end="")
-        for morph in morphs:
-            print(morph.surface, end="")
-        print("")
-        print("dst : " + dst)
-        print("srcs : ", end="")
-        print(chunk.srcs)
-        print("")
+    lines = tree.toString(CaboCha.FORMAT_LATTICE)
+    contents = re.findall(r'.*\n', lines, re.MULTILINE)
+
+    lst = make_chunk(contents)[0]
+
+    G = Digraph(format="png")
+    G.attr("node", shape="circle")
+
+    for i in range(len(lst)):
+        G.node(str(i), "".join([morph.surface for morph in lst[i].morphs]))
+    
+    for i in range(len(lst)):
+        if lst[i].dst != '-1':
+            G.edge(str(i), str(lst[i].dst))
+    
+    G.render('tree')

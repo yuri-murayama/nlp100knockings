@@ -4,7 +4,9 @@ import nlp40
 import nlp41
 
 if __name__=='__main__':
-    lst = nlp41.make_chunk()
+    with open("neko.txt.cabocha", "r", encoding="utf-8") as f:
+        lines = f.readlines()
+    lst = nlp41.make_chunk(lines)
     for l in lst:
         for ll in l:
             if ll.dst!='-1':

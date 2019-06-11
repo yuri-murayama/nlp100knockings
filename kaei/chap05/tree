@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle]
+	0 [label="吾輩は"]
+	1 [label="ここで"]
+	2 [label="始めて"]
+	3 [label="人間という"]
+	4 [label="ものを"]
+	5 [label="見た。"]
+	0 -> 5
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+}
