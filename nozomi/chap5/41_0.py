@@ -12,53 +12,57 @@ class Chunk:
     def __init__(self,morphs,srcs,dst):
         self.morphs = morphs
         self.srcs = srcs
-        self.dst = int(dst.strip('D'))
-#    def __str__(self):
+        self.dst = dst
+    def __str__(self):
+        p = []
+        for morph in self.morphs:
+            p.append(morph.surface)
+        return '{}\tdst:{}\tsrcs:{}'.format(''.join(p),self.dst,self.srcs)
 
 def keitaiso():
     sentences = []
     sentence = []
     chunk = None
+    lst = {}
     with open('neko.txt.cabocha','r') as f:
         for line in f:
-            #l_lst = line.split()
-            #if l_lst[0] != '*' and l_lst[0] != 'EOS':
             if line[0] == '*':
+                if chunk is not None:
+                    sentence.append(chunk)
                 l_lst = line.split(' ')
-                dst = l_lst[2]
+                dst = int(l_lst[2].strip('D'))
                 srcs = l_lst[1]
-                lst = {}
-                #lst[dst] = srcs
                 if dst in lst.keys():
                     lst[dst].append(srcs)
                 else:
                     lst[dst] = [srcs]
-                if chunk is not None:
-                    chunk = Chunk(morphs,dst,srcs)
-            elif line[0] == 'EOS': 
+                morphs = []
+                chunk = Chunk(morphs,srcs,dst)
+            elif line[0:4] == 'EOS\n': 
                 if chunk is not None:
                     sentence.append(chunk)
                 if len(sentence) > 0:
                     sentences.append(sentence)
+                for i,chunk in enumerate(sentence):
+                    #print(lst.keys())
+                    if i in lst.keys():
+                        chunk.srcs = lst[i]
+                    else:
+                        chunk.srcs = []
+                        
                 chunk = None
                 sentence = []
+                lst = {}
             else:
-                l_lst2 = line[0].split(',') + line[1].split(',')
-                mo = Morph(surface=l_lst2[0], base=l_lst2[7], pos=l_lst2[1], pos1=l_lst2[2])
+                l_lst2 = line.split('\t') 
+                #print(l_lst2)
+                l_lst3 = l_lst2[1].split(',')
+                mo = Morph(surface=l_lst2[0], base=l_lst3[6], pos=l_lst3[0], pos1=l_lst3[1])
                 chunk.morphs.append(mo)
                 
-#            else:
-#                ls = l_lst.split('\t')
-#                ls2 = ls[1].split(',')
-
-
 
     return sentences
 
 for m in keitaiso()[7]:
     print(m)
-#for i, cs in enumerate(keitaiso()):
-#    if i == 7:
-#        for j, ck in enumerate(cs):
-#            print(ck)
-#        break
+
