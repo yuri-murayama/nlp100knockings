@@ -30,7 +30,8 @@ def load_neko():
                 sentence.append(chunk)
                 chunk = Chunk()
             for i, c in enumerate(sentence):
-                sentence[c.dst].srcs.append(i) # 係り元を代入
+                if c.dst != -1:
+                    sentence[c.dst].srcs.append(i) # 係り元を代入
             text.append(sentence)
             sentence = []
         else:
@@ -48,5 +49,5 @@ def load_neko():
 
 if __name__ == '__main__':
     text = load_neko()
-    for chunk in text[7]:
-        print(chunk) 
+    for i, chunk in enumerate(text[7]):
+        print(i, chunk)
