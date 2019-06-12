@@ -17,6 +17,25 @@ class Chunk:
         surface_lst = [morph.surface for morph in self.morphs]
         return '{0} 係り先:{1}'.format(''.join(surface_lst),self.dst)
 
+def judge(chunk,pos):
+    boolian = False
+    for morph in chunk.morphs:
+        if morph.pos == pos:
+            boolian =True
+    return boolian
+
+def print_bunnsetsu(sentence):
+    surface_dic = {}
+    lst = []
+    for i, chunk in enumerate(sentence):
+        surface_lst = []
+        surface_lst = [morph.surface.rstrip("。、") for morph in chunk.morphs]
+        surface_dic[i]  = surface_lst
+    for i, chunk in enumerate(sentence):
+        if chunk.dst != -1:
+            if judge(chunk,'名詞') and judge(sentence[chunk.dst],'動詞'):
+                lst.append((''.join(surface_dic[i]),''.join(surface_dic[chunk.dst])))
+    return lst
 
 def chunk_list():
     text = [] #文章の形態素解析が格納されている　１文が一つのリスト
@@ -46,5 +65,9 @@ def chunk_list():
 
 if __name__ =='__main__':
     text = chunk_list()
-    for chunk in text[7]:
-        print(chunk)
+    for sentence in text:
+        lst = print_bunnsetsu(sentence)
+        if len(lst) > 0:
+            for i in range(len(lst)):
+                print(lst[i][0]+'\t'+lst[i][1])
+            print()

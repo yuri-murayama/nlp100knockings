@@ -8,7 +8,7 @@ class Morph:
         self.pos1 = pos1
 
 cab = [] #文章の形態素解析が格納されている　１文が一つのリスト
-sentence = []　　#１文の形態素解析を一時格納する
+sentence = []
 with open('neko.txt.cabocha','r') as f:
     lines = f.readlines()  #read()だと１文字ずつ読み込んでしまう
     for line in lines:
@@ -22,5 +22,5 @@ with open('neko.txt.cabocha','r') as f:
                 cab.append(sentence)
             sentence = [] #sentenceの初期化
 
-for cab in cab[1]:　
-    print(vars(cab))　#一つのリストを表示　リストの中身が辞書になっていてそれを出力する varはMorphの形になっている中身を取り出す
+for cab in cab[1]:
+    print(vars(cab))
