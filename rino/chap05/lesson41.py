@@ -6,7 +6,7 @@ class Chunk:
     def __init__(self, lines):
         line = lines.split("\n")
         self.index = line[0].split(" ")[0]
-        self.dst = line[0].split(" ")[1].rstrip('D')
+        self.dst = int(line[0].split(" ")[1].rstrip('D'))
         self.morphs = []
         self.srcs = []
 
@@ -62,7 +62,7 @@ def addChunkSrcs(cabocha_chunk_list):
         for i in range(len(sen)):
             for chu in sen:
                 if int(chu.dst) == i:
-                    sen[i].srcs.append(chu.index)
+                    sen[i].srcs.append(int(chu.index))
 
     return cabocha_chunk_list
 
