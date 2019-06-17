@@ -41,19 +41,20 @@ def verb_mining(sentence):
                         if len(joshi_lst) > 0:
                             joshi_frame = []
                             for mm in sentence[int(i)].morphs:
-                                joshi_frame.append(mm.surface)
+                                if mm.pos1!='読点': # 記号削除
+                                    joshi_frame.append(mm.surface)
                             
                             joshi_frame_lst.append("".join(joshi_frame))
                     
                     if len(joshi_lst)>0 and len(sahen_wo)>0: # 格 and サ変+を がある
                         joshi = " ".join(joshi_lst)
-                        joshi_frame = " ".join(joshi_frame_lst)
+                        frame = " ".join(joshi_frame_lst)
 
                         print(sahen_wo + verb_lst[0], end="")
                         print("\t", end="")
                         print(joshi, end="")
                         print("\t", end="")
-                        print(joshi_frame)
+                        print(frame)
 
 if __name__=='__main__':
     with open("neko.txt.cabocha", "r", encoding="utf-8") as f:
