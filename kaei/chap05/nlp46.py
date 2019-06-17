@@ -25,7 +25,7 @@ def print_kaku_frame(sentence):
 
                             kaku_frame = []
                             for mm in sentence[int(i)].morphs:
-                                if mm.pos1!='句点':
+                                if mm.pos1!='読点':
                                     kaku_frame.append(mm.surface)
                             
                             kaku_frame_lst.append("".join(kaku_frame))
