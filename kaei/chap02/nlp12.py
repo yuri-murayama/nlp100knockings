@@ -6,6 +6,7 @@ lst0 = []
 lst1 = []
 
 with open(filepath) as f:
+    print(f)
     lines = f.readlines()
     for line in lines:
         line = line.split("\t")
