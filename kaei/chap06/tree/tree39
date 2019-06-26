@@ -1,0 +1,62 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=Some]
+	2 [label=of]
+	3 [label=the]
+	4 [label="earliest-used"]
+	5 [label=algorithms]
+	6 [label=","]
+	7 [label=such]
+	8 [label=as]
+	9 [label=decision]
+	10 [label=trees]
+	11 [label=","]
+	12 [label=produced]
+	13 [label=systems]
+	14 [label=of]
+	15 [label=hard]
+	16 [label="if-then"]
+	17 [label=rules]
+	18 [label=similar]
+	19 [label=to]
+	20 [label=the]
+	21 [label=systems]
+	22 [label=of]
+	23 [label="hand-written"]
+	24 [label=rules]
+	25 [label=that]
+	26 [label=were]
+	27 [label=then]
+	28 [label=common]
+	29 [label="."]
+	0 -> 12
+	12 -> 1
+	5 -> 2
+	5 -> 3
+	5 -> 4
+	1 -> 5
+	1 -> 6
+	10 -> 7
+	7 -> 8
+	10 -> 9
+	1 -> 10
+	1 -> 11
+	12 -> 13
+	17 -> 14
+	17 -> 15
+	17 -> 16
+	13 -> 17
+	17 -> 18
+	21 -> 19
+	21 -> 20
+	18 -> 21
+	24 -> 22
+	24 -> 23
+	21 -> 24
+	28 -> 25
+	28 -> 26
+	28 -> 27
+	21 -> 28
+	12 -> 29
+}

@@ -1,0 +1,72 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=However]
+	2 [label=","]
+	3 [label=creating]
+	4 [label=more]
+	5 [label=data]
+	6 [label=to]
+	7 [label=input]
+	8 [label=to]
+	9 [label="machine-learning"]
+	10 [label=systems]
+	11 [label=simply]
+	12 [label=requires]
+	13 [label=a]
+	14 [label=corresponding]
+	15 [label=increase]
+	16 [label=in]
+	17 [label=the]
+	18 [label=number]
+	19 [label=of]
+	20 [label="man-hours"]
+	21 [label=worked]
+	22 [label=","]
+	23 [label=generally]
+	24 [label=without]
+	25 [label=significant]
+	26 [label=increases]
+	27 [label=in]
+	28 [label=the]
+	29 [label=complexity]
+	30 [label=of]
+	31 [label=the]
+	32 [label=annotation]
+	33 [label=process]
+	34 [label="."]
+	0 -> 3
+	3 -> 1
+	3 -> 2
+	5 -> 4
+	3 -> 5
+	7 -> 6
+	3 -> 7
+	10 -> 8
+	10 -> 9
+	3 -> 10
+	12 -> 11
+	3 -> 12
+	15 -> 13
+	15 -> 14
+	21 -> 15
+	18 -> 16
+	18 -> 17
+	15 -> 18
+	20 -> 19
+	18 -> 20
+	12 -> 21
+	12 -> 22
+	26 -> 23
+	26 -> 24
+	26 -> 25
+	12 -> 26
+	29 -> 27
+	29 -> 28
+	26 -> 29
+	33 -> 30
+	33 -> 31
+	33 -> 32
+	29 -> 33
+	3 -> 34
+}

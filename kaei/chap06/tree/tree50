@@ -1,0 +1,64 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=When]
+	2 [label=the]
+	3 [label=aims]
+	4 [label=of]
+	5 [label=computational]
+	6 [label=language]
+	7 [label=learning]
+	8 [label=research]
+	9 [label=is]
+	10 [label=to]
+	11 [label=understand]
+	12 [label=more]
+	13 [label=about]
+	14 [label=human]
+	15 [label=language]
+	16 [label=acquisition]
+	17 [label=","]
+	18 [label=or]
+	19 [label=psycholinguistics]
+	20 [label=","]
+	21 [label=NLL]
+	22 [label=overlaps]
+	23 [label=into]
+	24 [label=the]
+	25 [label=related]
+	26 [label=field]
+	27 [label=of]
+	28 [label=Computational]
+	29 [label=Psycholinguistics]
+	30 [label="."]
+	0 -> 22
+	9 -> 1
+	3 -> 2
+	9 -> 3
+	6 -> 4
+	6 -> 5
+	3 -> 6
+	6 -> 7
+	7 -> 8
+	22 -> 9
+	11 -> 10
+	9 -> 11
+	11 -> 12
+	16 -> 13
+	16 -> 14
+	16 -> 15
+	11 -> 16
+	16 -> 17
+	16 -> 18
+	16 -> 19
+	22 -> 20
+	22 -> 21
+	26 -> 23
+	26 -> 24
+	26 -> 25
+	22 -> 26
+	29 -> 27
+	29 -> 28
+	26 -> 29
+	22 -> 30
+}

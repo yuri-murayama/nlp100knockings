@@ -1,0 +1,50 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=As]
+	2 [label=a]
+	3 [label=result]
+	4 [label=","]
+	5 [label=a]
+	6 [label=great]
+	7 [label=deal]
+	8 [label=of]
+	9 [label=research]
+	10 [label=has]
+	11 [label=gone]
+	12 [label=into]
+	13 [label=methods]
+	14 [label=of]
+	15 [label=more]
+	16 [label=effectively]
+	17 [label=learning]
+	18 [label=from]
+	19 [label=limited]
+	20 [label=amounts]
+	21 [label=of]
+	22 [label=data]
+	23 [label="."]
+	0 -> 11
+	3 -> 1
+	3 -> 2
+	11 -> 3
+	11 -> 4
+	7 -> 5
+	7 -> 6
+	11 -> 7
+	9 -> 8
+	7 -> 9
+	11 -> 10
+	13 -> 12
+	11 -> 13
+	15 -> 14
+	13 -> 15
+	17 -> 16
+	15 -> 17
+	20 -> 18
+	20 -> 19
+	17 -> 20
+	22 -> 21
+	20 -> 22
+	11 -> 23
+}

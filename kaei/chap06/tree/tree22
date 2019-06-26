@@ -1,0 +1,42 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=The]
+	2 [label=cache]
+	3 [label=language]
+	4 [label=models]
+	5 [label=upon]
+	6 [label=which]
+	7 [label=many]
+	8 [label=speech]
+	9 [label=recognition]
+	10 [label=systems]
+	11 [label=now]
+	12 [label=rely]
+	13 [label=are]
+	14 [label=examples]
+	15 [label=of]
+	16 [label=such]
+	17 [label=statistical]
+	18 [label=models]
+	19 [label="."]
+	0 -> 14
+	4 -> 1
+	4 -> 2
+	4 -> 3
+	14 -> 4
+	12 -> 5
+	12 -> 6
+	10 -> 7
+	10 -> 8
+	10 -> 9
+	12 -> 10
+	12 -> 11
+	4 -> 12
+	14 -> 13
+	18 -> 15
+	18 -> 16
+	18 -> 17
+	14 -> 18
+	14 -> 19
+}

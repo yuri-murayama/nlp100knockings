@@ -1,0 +1,54 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=Starting]
+	2 [label=in]
+	3 [label=the]
+	4 [label=late]
+	5 [label="1980s"]
+	6 [label=","]
+	7 [label=however]
+	8 [label=","]
+	9 [label=there]
+	10 [label=was]
+	11 [label=a]
+	12 [label=revolution]
+	13 [label=in]
+	14 [label=NLP]
+	15 [label=with]
+	16 [label=the]
+	17 [label=introduction]
+	18 [label=of]
+	19 [label=machine]
+	20 [label=learning]
+	21 [label=algorithms]
+	22 [label=for]
+	23 [label=language]
+	24 [label=processing]
+	25 [label="."]
+	0 -> 10
+	5 -> 1
+	5 -> 2
+	5 -> 3
+	5 -> 4
+	10 -> 5
+	10 -> 6
+	10 -> 7
+	10 -> 8
+	10 -> 9
+	12 -> 11
+	10 -> 12
+	14 -> 13
+	12 -> 14
+	17 -> 15
+	17 -> 16
+	10 -> 17
+	21 -> 18
+	21 -> 19
+	21 -> 20
+	17 -> 21
+	24 -> 22
+	24 -> 23
+	21 -> 24
+	10 -> 25
+}

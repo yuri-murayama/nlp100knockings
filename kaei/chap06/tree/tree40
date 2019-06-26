@@ -1,0 +1,58 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=Increasingly]
+	2 [label=","]
+	3 [label=however]
+	4 [label=","]
+	5 [label=research]
+	6 [label=has]
+	7 [label=focused]
+	8 [label=on]
+	9 [label=statistical]
+	10 [label=models]
+	11 [label=","]
+	12 [label=which]
+	13 [label=make]
+	14 [label=soft]
+	15 [label=","]
+	16 [label=probabilistic]
+	17 [label=decisions]
+	18 [label=based]
+	19 [label=on]
+	20 [label=attaching]
+	21 [label="real-valued"]
+	22 [label=weights]
+	23 [label=to]
+	24 [label=each]
+	25 [label=input]
+	26 [label=feature]
+	27 [label="."]
+	0 -> 7
+	7 -> 1
+	7 -> 2
+	7 -> 3
+	7 -> 4
+	7 -> 5
+	7 -> 6
+	10 -> 8
+	10 -> 9
+	7 -> 10
+	10 -> 11
+	13 -> 12
+	10 -> 13
+	17 -> 14
+	17 -> 15
+	17 -> 16
+	13 -> 17
+	20 -> 18
+	20 -> 19
+	13 -> 20
+	22 -> 21
+	20 -> 22
+	26 -> 23
+	26 -> 24
+	26 -> 25
+	20 -> 26
+	7 -> 27
+}

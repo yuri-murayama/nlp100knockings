@@ -1,0 +1,32 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=Many]
+	2 [label=different]
+	3 [label=classes]
+	4 [label=of]
+	5 [label=machine]
+	6 [label=learning]
+	7 [label=algorithms]
+	8 [label=have]
+	9 [label=been]
+	10 [label=applied]
+	11 [label=to]
+	12 [label=NLP]
+	13 [label=tasks]
+	14 [label="."]
+	0 -> 10
+	3 -> 1
+	3 -> 2
+	10 -> 3
+	7 -> 4
+	7 -> 5
+	7 -> 6
+	3 -> 7
+	10 -> 8
+	10 -> 9
+	13 -> 11
+	13 -> 12
+	10 -> 13
+	10 -> 14
+}

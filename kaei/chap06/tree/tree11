@@ -1,0 +1,40 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=Using]
+	2 [label=almost]
+	3 [label=no]
+	4 [label=information]
+	5 [label=about]
+	6 [label=human]
+	7 [label=thought]
+	8 [label=or]
+	9 [label=emotion]
+	10 [label=","]
+	11 [label=ELIZA]
+	12 [label=sometimes]
+	13 [label=provided]
+	14 [label=a]
+	15 [label=startlingly]
+	16 [label="human-like"]
+	17 [label=interaction]
+	18 [label="."]
+	0 -> 13
+	13 -> 1
+	4 -> 2
+	4 -> 3
+	1 -> 4
+	7 -> 5
+	7 -> 6
+	1 -> 7
+	7 -> 8
+	7 -> 9
+	13 -> 10
+	13 -> 11
+	13 -> 12
+	17 -> 14
+	16 -> 15
+	17 -> 16
+	13 -> 17
+	13 -> 18
+}

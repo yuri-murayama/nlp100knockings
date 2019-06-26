@@ -1,0 +1,38 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=Prior]
+	2 [label=implementations]
+	3 [label=of]
+	4 [label="language-processing"]
+	5 [label=tasks]
+	6 [label=typically]
+	7 [label=involved]
+	8 [label=the]
+	9 [label=direct]
+	10 [label=hand]
+	11 [label=coding]
+	12 [label=of]
+	13 [label=large]
+	14 [label=sets]
+	15 [label=of]
+	16 [label=rules]
+	17 [label="."]
+	0 -> 7
+	7 -> 1
+	7 -> 2
+	5 -> 3
+	5 -> 4
+	2 -> 5
+	7 -> 6
+	11 -> 8
+	11 -> 9
+	11 -> 10
+	7 -> 11
+	14 -> 12
+	14 -> 13
+	11 -> 14
+	16 -> 15
+	14 -> 16
+	7 -> 17
+}

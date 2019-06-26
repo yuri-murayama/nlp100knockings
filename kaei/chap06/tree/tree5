@@ -1,0 +1,64 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=In]
+	2 [label=1950]
+	3 [label=","]
+	4 [label=Alan]
+	5 [label=Turing]
+	6 [label=published]
+	7 [label=an]
+	8 [label=article]
+	9 [label=titled]
+	10 [label="``"]
+	11 [label=Computing]
+	12 [label=Machinery]
+	13 [label=and]
+	14 [label=Intelligence]
+	15 [label="''"]
+	16 [label=which]
+	17 [label=proposed]
+	18 [label=what]
+	19 [label=is]
+	20 [label=now]
+	21 [label=called]
+	22 [label=the]
+	23 [label=Turing]
+	24 [label=test]
+	25 [label=as]
+	26 [label=a]
+	27 [label=criterion]
+	28 [label=of]
+	29 [label=intelligence]
+	30 [label="."]
+	0 -> 6
+	2 -> 1
+	6 -> 2
+	6 -> 3
+	5 -> 4
+	6 -> 5
+	8 -> 7
+	6 -> 8
+	8 -> 9
+	12 -> 10
+	12 -> 11
+	9 -> 12
+	12 -> 13
+	12 -> 14
+	12 -> 15
+	17 -> 16
+	8 -> 17
+	21 -> 18
+	21 -> 19
+	21 -> 20
+	17 -> 21
+	24 -> 22
+	24 -> 23
+	21 -> 24
+	27 -> 25
+	27 -> 26
+	21 -> 27
+	29 -> 28
+	27 -> 29
+	6 -> 30
+}

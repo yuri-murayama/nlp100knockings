@@ -1,0 +1,38 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=The]
+	2 [label=paradigm]
+	3 [label=of]
+	4 [label=machine]
+	5 [label=learning]
+	6 [label=is]
+	7 [label=different]
+	8 [label=from]
+	9 [label=that]
+	10 [label=of]
+	11 [label=most]
+	12 [label=prior]
+	13 [label=attempts]
+	14 [label=at]
+	15 [label=language]
+	16 [label=processing]
+	17 [label="."]
+	0 -> 7
+	2 -> 1
+	7 -> 2
+	5 -> 3
+	5 -> 4
+	2 -> 5
+	7 -> 6
+	9 -> 8
+	7 -> 9
+	13 -> 10
+	13 -> 11
+	13 -> 12
+	9 -> 13
+	16 -> 14
+	16 -> 15
+	7 -> 16
+	7 -> 17
+}

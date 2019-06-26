@@ -1,0 +1,28 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=Recent]
+	2 [label=research]
+	3 [label=has]
+	4 [label=increasingly]
+	5 [label=focused]
+	6 [label=on]
+	7 [label=unsupervised]
+	8 [label=and]
+	9 [label="semi-supervised"]
+	10 [label=learning]
+	11 [label=algorithms]
+	12 [label="."]
+	0 -> 5
+	2 -> 1
+	5 -> 2
+	5 -> 3
+	5 -> 4
+	11 -> 6
+	11 -> 7
+	7 -> 8
+	7 -> 9
+	11 -> 10
+	5 -> 11
+	5 -> 12
+}

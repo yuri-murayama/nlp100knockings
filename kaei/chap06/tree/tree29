@@ -1,0 +1,60 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=Such]
+	2 [label=algorithms]
+	3 [label=are]
+	4 [label=able]
+	5 [label=to]
+	6 [label=learn]
+	7 [label=from]
+	8 [label=data]
+	9 [label=that]
+	10 [label=has]
+	11 [label=not]
+	12 [label=been]
+	13 [label="hand-annotated"]
+	14 [label=with]
+	15 [label=the]
+	16 [label=desired]
+	17 [label=answers]
+	18 [label=","]
+	19 [label=or]
+	20 [label=using]
+	21 [label=a]
+	22 [label=combination]
+	23 [label=of]
+	24 [label=annotated]
+	25 [label=and]
+	26 [label="non-annotated"]
+	27 [label=data]
+	28 [label="."]
+	0 -> 4
+	2 -> 1
+	4 -> 2
+	4 -> 3
+	6 -> 5
+	4 -> 6
+	8 -> 7
+	6 -> 8
+	13 -> 9
+	13 -> 10
+	13 -> 11
+	13 -> 12
+	8 -> 13
+	17 -> 14
+	17 -> 15
+	17 -> 16
+	13 -> 17
+	6 -> 18
+	6 -> 19
+	6 -> 20
+	22 -> 21
+	20 -> 22
+	27 -> 23
+	27 -> 24
+	24 -> 25
+	24 -> 26
+	22 -> 27
+	4 -> 28
+}

@@ -1,0 +1,78 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=However]
+	2 [label=","]
+	3 [label=most]
+	4 [label=other]
+	5 [label=systems]
+	6 [label=depended]
+	7 [label=on]
+	8 [label=corpora]
+	9 [label=specifically]
+	10 [label=developed]
+	11 [label=for]
+	12 [label=the]
+	13 [label=tasks]
+	14 [label=implemented]
+	15 [label=by]
+	16 [label=these]
+	17 [label=systems]
+	18 [label=","]
+	19 [label=which]
+	20 [label=was]
+	21 [label="-LRB-"]
+	22 [label=and]
+	23 [label=often]
+	24 [label=continues]
+	25 [label=to]
+	26 [label=be]
+	27 [label="-RRB-"]
+	28 [label=a]
+	29 [label=major]
+	30 [label=limitation]
+	31 [label=in]
+	32 [label=the]
+	33 [label=success]
+	34 [label=of]
+	35 [label=these]
+	36 [label=systems]
+	37 [label="."]
+	0 -> 10
+	6 -> 1
+	6 -> 2
+	5 -> 3
+	5 -> 4
+	6 -> 5
+	10 -> 6
+	8 -> 7
+	6 -> 8
+	10 -> 9
+	13 -> 11
+	13 -> 12
+	10 -> 13
+	13 -> 14
+	17 -> 15
+	17 -> 16
+	14 -> 17
+	17 -> 18
+	20 -> 19
+	17 -> 20
+	24 -> 21
+	24 -> 22
+	24 -> 23
+	20 -> 24
+	26 -> 25
+	24 -> 26
+	24 -> 27
+	30 -> 28
+	30 -> 29
+	10 -> 30
+	33 -> 31
+	33 -> 32
+	30 -> 33
+	36 -> 34
+	36 -> 35
+	33 -> 36
+	10 -> 37
+}

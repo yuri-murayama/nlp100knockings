@@ -1,0 +1,66 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=Many]
+	2 [label=challenges]
+	3 [label=in]
+	4 [label=NLP]
+	5 [label=involve]
+	6 [label=natural]
+	7 [label=language]
+	8 [label=understanding]
+	9 [label=","]
+	10 [label=that]
+	11 [label=is]
+	12 [label=","]
+	13 [label=enabling]
+	14 [label=computers]
+	15 [label=to]
+	16 [label=derive]
+	17 [label=meaning]
+	18 [label=from]
+	19 [label=human]
+	20 [label=or]
+	21 [label=natural]
+	22 [label=language]
+	23 [label=input]
+	24 [label=","]
+	25 [label=and]
+	26 [label=others]
+	27 [label=involve]
+	28 [label=natural]
+	29 [label=language]
+	30 [label=generation]
+	31 [label="."]
+	0 -> 5
+	2 -> 1
+	5 -> 2
+	4 -> 3
+	2 -> 4
+	8 -> 6
+	8 -> 7
+	13 -> 8
+	8 -> 9
+	11 -> 10
+	8 -> 11
+	8 -> 12
+	5 -> 13
+	13 -> 14
+	16 -> 15
+	13 -> 16
+	16 -> 17
+	23 -> 18
+	23 -> 19
+	19 -> 20
+	19 -> 21
+	23 -> 22
+	16 -> 23
+	5 -> 24
+	5 -> 25
+	27 -> 26
+	5 -> 27
+	30 -> 28
+	30 -> 29
+	27 -> 30
+	5 -> 31
+}

@@ -1,0 +1,44 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=History]
+	2 [label=The]
+	3 [label=history]
+	4 [label=of]
+	5 [label=NLP]
+	6 [label=generally]
+	7 [label=starts]
+	8 [label=in]
+	9 [label=the]
+	10 [label="1950s"]
+	11 [label=","]
+	12 [label=although]
+	13 [label=work]
+	14 [label=can]
+	15 [label=be]
+	16 [label=found]
+	17 [label=from]
+	18 [label=earlier]
+	19 [label=periods]
+	20 [label="."]
+	0 -> 7
+	3 -> 1
+	3 -> 2
+	7 -> 3
+	5 -> 4
+	3 -> 5
+	7 -> 6
+	10 -> 8
+	10 -> 9
+	7 -> 10
+	7 -> 11
+	16 -> 12
+	16 -> 13
+	16 -> 14
+	16 -> 15
+	7 -> 16
+	19 -> 17
+	19 -> 18
+	16 -> 19
+	7 -> 20
+}

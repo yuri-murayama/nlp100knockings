@@ -1,0 +1,40 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=The]
+	2 [label=Georgetown]
+	3 [label=experiment]
+	4 [label=in]
+	5 [label=1954]
+	6 [label=involved]
+	7 [label=fully]
+	8 [label=automatic]
+	9 [label=translation]
+	10 [label=of]
+	11 [label=more]
+	12 [label=than]
+	13 [label=sixty]
+	14 [label=Russian]
+	15 [label=sentences]
+	16 [label=into]
+	17 [label=English]
+	18 [label="."]
+	0 -> 6
+	3 -> 1
+	3 -> 2
+	6 -> 3
+	5 -> 4
+	3 -> 5
+	8 -> 7
+	9 -> 8
+	6 -> 9
+	15 -> 10
+	13 -> 11
+	11 -> 12
+	15 -> 13
+	15 -> 14
+	9 -> 15
+	17 -> 16
+	6 -> 17
+	6 -> 18
+}

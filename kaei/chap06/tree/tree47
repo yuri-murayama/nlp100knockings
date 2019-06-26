@@ -1,0 +1,58 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=In]
+	2 [label=particular]
+	3 [label=","]
+	4 [label=there]
+	5 [label=is]
+	6 [label=a]
+	7 [label=limit]
+	8 [label=to]
+	9 [label=the]
+	10 [label=complexity]
+	11 [label=of]
+	12 [label=systems]
+	13 [label=based]
+	14 [label=on]
+	15 [label="hand-crafted"]
+	16 [label=rules]
+	17 [label=","]
+	18 [label=beyond]
+	19 [label=which]
+	20 [label=the]
+	21 [label=systems]
+	22 [label=become]
+	23 [label=more]
+	24 [label=and]
+	25 [label=more]
+	26 [label=unmanageable]
+	27 [label="."]
+	0 -> 5
+	2 -> 1
+	5 -> 2
+	5 -> 3
+	5 -> 4
+	7 -> 6
+	5 -> 7
+	10 -> 8
+	10 -> 9
+	7 -> 10
+	12 -> 11
+	10 -> 12
+	12 -> 13
+	16 -> 14
+	16 -> 15
+	13 -> 16
+	16 -> 17
+	19 -> 18
+	22 -> 19
+	21 -> 20
+	22 -> 21
+	16 -> 22
+	26 -> 23
+	23 -> 24
+	23 -> 25
+	22 -> 26
+	5 -> 27
+}

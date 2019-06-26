@@ -1,0 +1,70 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=A]
+	2 [label=corpus]
+	3 [label="-LRB-"]
+	4 [label=plural]
+	5 [label=","]
+	6 [label="``"]
+	7 [label=corpora]
+	8 [label="''"]
+	9 [label="-RRB-"]
+	10 [label=is]
+	11 [label=a]
+	12 [label=set]
+	13 [label=of]
+	14 [label=documents]
+	15 [label="-LRB-"]
+	16 [label=or]
+	17 [label=sometimes]
+	18 [label=","]
+	19 [label=individual]
+	20 [label=sentences]
+	21 [label="-RRB-"]
+	22 [label=that]
+	23 [label=have]
+	24 [label=been]
+	25 [label="hand-annotated"]
+	26 [label=with]
+	27 [label=the]
+	28 [label=correct]
+	29 [label=values]
+	30 [label=to]
+	31 [label=be]
+	32 [label=learned]
+	33 [label="."]
+	0 -> 12
+	2 -> 1
+	12 -> 2
+	4 -> 3
+	2 -> 4
+	4 -> 5
+	7 -> 6
+	4 -> 7
+	7 -> 8
+	4 -> 9
+	12 -> 10
+	12 -> 11
+	14 -> 13
+	12 -> 14
+	20 -> 15
+	20 -> 16
+	20 -> 17
+	20 -> 18
+	20 -> 19
+	14 -> 20
+	20 -> 21
+	25 -> 22
+	25 -> 23
+	25 -> 24
+	14 -> 25
+	29 -> 26
+	29 -> 27
+	29 -> 28
+	25 -> 29
+	32 -> 30
+	32 -> 31
+	25 -> 32
+	12 -> 33
+}

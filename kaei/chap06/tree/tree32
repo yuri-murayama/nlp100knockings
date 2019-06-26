@@ -1,0 +1,40 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=NLP]
+	2 [label=using]
+	3 [label=machine]
+	4 [label=learning]
+	5 [label=Modern]
+	6 [label=NLP]
+	7 [label=algorithms]
+	8 [label=are]
+	9 [label=based]
+	10 [label=on]
+	11 [label=machine]
+	12 [label=learning]
+	13 [label=","]
+	14 [label=especially]
+	15 [label=statistical]
+	16 [label=machine]
+	17 [label=learning]
+	18 [label="."]
+	0 -> 9
+	9 -> 1
+	1 -> 2
+	7 -> 3
+	7 -> 4
+	7 -> 5
+	7 -> 6
+	2 -> 7
+	9 -> 8
+	12 -> 10
+	12 -> 11
+	9 -> 12
+	12 -> 13
+	12 -> 14
+	17 -> 15
+	17 -> 16
+	12 -> 17
+	9 -> 18
+}

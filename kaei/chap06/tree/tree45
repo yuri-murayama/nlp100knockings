@@ -1,0 +1,42 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=Systems]
+	2 [label=based]
+	3 [label=on]
+	4 [label=automatically]
+	5 [label=learning]
+	6 [label=the]
+	7 [label=rules]
+	8 [label=can]
+	9 [label=be]
+	10 [label=made]
+	11 [label=more]
+	12 [label=accurate]
+	13 [label=simply]
+	14 [label=by]
+	15 [label=supplying]
+	16 [label=more]
+	17 [label=input]
+	18 [label=data]
+	19 [label="."]
+	0 -> 10
+	10 -> 1
+	1 -> 2
+	5 -> 3
+	5 -> 4
+	2 -> 5
+	7 -> 6
+	5 -> 7
+	10 -> 8
+	10 -> 9
+	12 -> 11
+	10 -> 12
+	10 -> 13
+	15 -> 14
+	10 -> 15
+	18 -> 16
+	18 -> 17
+	15 -> 18
+	10 -> 19
+}

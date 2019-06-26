@@ -1,0 +1,86 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=Such]
+	2 [label=models]
+	3 [label=are]
+	4 [label=generally]
+	5 [label=more]
+	6 [label=robust]
+	7 [label=when]
+	8 [label=given]
+	9 [label=unfamiliar]
+	10 [label=input]
+	11 [label=","]
+	12 [label=especially]
+	13 [label=input]
+	14 [label=that]
+	15 [label=contains]
+	16 [label=errors]
+	17 [label="-LRB-"]
+	18 [label=as]
+	19 [label=is]
+	20 [label=very]
+	21 [label=common]
+	22 [label=for]
+	23 [label="real-world"]
+	24 [label=data]
+	25 [label="-RRB-"]
+	26 [label=","]
+	27 [label=and]
+	28 [label=produce]
+	29 [label=more]
+	30 [label=reliable]
+	31 [label=results]
+	32 [label=when]
+	33 [label=integrated]
+	34 [label=into]
+	35 [label=a]
+	36 [label=larger]
+	37 [label=system]
+	38 [label=comprising]
+	39 [label=multiple]
+	40 [label=subtasks]
+	41 [label="."]
+	0 -> 6
+	2 -> 1
+	6 -> 2
+	6 -> 3
+	6 -> 4
+	6 -> 5
+	8 -> 7
+	6 -> 8
+	10 -> 9
+	8 -> 10
+	10 -> 11
+	13 -> 12
+	10 -> 13
+	15 -> 14
+	13 -> 15
+	15 -> 16
+	21 -> 17
+	21 -> 18
+	21 -> 19
+	21 -> 20
+	16 -> 21
+	24 -> 22
+	24 -> 23
+	21 -> 24
+	21 -> 25
+	10 -> 26
+	8 -> 27
+	8 -> 28
+	31 -> 29
+	31 -> 30
+	28 -> 31
+	33 -> 32
+	28 -> 33
+	37 -> 34
+	37 -> 35
+	37 -> 36
+	33 -> 37
+	37 -> 38
+	40 -> 39
+	38 -> 40
+	6 -> 41
+}

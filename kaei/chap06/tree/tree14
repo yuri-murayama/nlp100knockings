@@ -1,0 +1,46 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=During]
+	2 [label=the]
+	3 [label="1970s"]
+	4 [label=many]
+	5 [label=programmers]
+	6 [label=began]
+	7 [label=to]
+	8 [label=write]
+	9 [label="`"]
+	10 [label=conceptual]
+	11 [label=ontologies]
+	12 [label="'"]
+	13 [label=","]
+	14 [label=which]
+	15 [label=structured]
+	16 [label="real-world"]
+	17 [label=information]
+	18 [label=into]
+	19 [label="computer-understandable"]
+	20 [label=data]
+	21 [label="."]
+	0 -> 6
+	3 -> 1
+	3 -> 2
+	6 -> 3
+	5 -> 4
+	6 -> 5
+	8 -> 7
+	6 -> 8
+	8 -> 9
+	8 -> 10
+	10 -> 11
+	11 -> 12
+	10 -> 13
+	15 -> 14
+	10 -> 15
+	17 -> 16
+	15 -> 17
+	20 -> 18
+	20 -> 19
+	15 -> 20
+	6 -> 21
+}

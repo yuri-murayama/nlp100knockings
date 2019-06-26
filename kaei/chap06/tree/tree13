@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label="."]
+	0 -> 1
+}

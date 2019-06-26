@@ -1,0 +1,62 @@
+digraph {
+	node [shape=circle]
+	0 [label=ROOT]
+	1 [label=However]
+	2 [label=","]
+	3 [label=systems]
+	4 [label=based]
+	5 [label=on]
+	6 [label="hand-written"]
+	7 [label=rules]
+	8 [label=can]
+	9 [label=only]
+	10 [label=be]
+	11 [label=made]
+	12 [label=more]
+	13 [label=accurate]
+	14 [label=by]
+	15 [label=increasing]
+	16 [label=the]
+	17 [label=complexity]
+	18 [label=of]
+	19 [label=the]
+	20 [label=rules]
+	21 [label=","]
+	22 [label=which]
+	23 [label=is]
+	24 [label=a]
+	25 [label=much]
+	26 [label=more]
+	27 [label=difficult]
+	28 [label=task]
+	29 [label="."]
+	0 -> 11
+	11 -> 1
+	11 -> 2
+	11 -> 3
+	7 -> 4
+	4 -> 5
+	7 -> 6
+	3 -> 7
+	11 -> 8
+	11 -> 9
+	11 -> 10
+	13 -> 12
+	11 -> 13
+	15 -> 14
+	11 -> 15
+	17 -> 16
+	15 -> 17
+	20 -> 18
+	20 -> 19
+	17 -> 20
+	20 -> 21
+	28 -> 22
+	28 -> 23
+	28 -> 24
+	27 -> 25
+	27 -> 26
+	28 -> 27
+	20 -> 28
+	11 -> 29
+}
