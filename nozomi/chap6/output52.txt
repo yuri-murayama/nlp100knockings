@@ -1,0 +1,1411 @@
+Natural  	 natural 
+language  	 language 
+processing 	 process
+ 	 
+ 	 
+ 	 
+From  	 from 
+Wikipedia,  	 wikipedia, 
+the  	 the 
+free  	 free 
+encyclopedia 	 encyclopedia
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+Natural  	 natural 
+language  	 language 
+processing  	 processing 
+(NLP)  	 (nlp) 
+is  	 is 
+a  	 a 
+field  	 field 
+of  	 of 
+computer  	 computer 
+science,  	 science, 
+artificial  	 artificial 
+intelligence,  	 intelligence, 
+and  	 and 
+linguistics  	 linguistics 
+concerned  	 concerned 
+with  	 with 
+the  	 the 
+interactions  	 interactions 
+between  	 between 
+computers  	 computers 
+and  	 and 
+human  	 human 
+(natural)  	 (natural) 
+languages.  	 languages. 
+ 	 
+As  	 as 
+such,  	 such, 
+NLP  	 nlp 
+is  	 is 
+related  	 related 
+to  	 to 
+the  	 the 
+area  	 area 
+of  	 of 
+humani-computer  	 humani-computer 
+interaction.  	 interaction. 
+ 	 
+Many  	 many 
+challenges  	 challenges 
+in  	 in 
+NLP  	 nlp 
+involve  	 involve 
+natural  	 natural 
+language  	 language 
+understanding,  	 understanding, 
+that  	 that 
+is,  	 is, 
+enabling  	 enabling 
+computers  	 computers 
+to  	 to 
+derive  	 derive 
+meaning  	 meaning 
+from  	 from 
+human  	 human 
+or  	 or 
+natural  	 natural 
+language  	 language 
+input,  	 input, 
+and  	 and 
+others  	 others 
+involve  	 involve 
+natural  	 natural 
+language  	 language 
+generation. 	 generation.
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+History 	 histori
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+The  	 the 
+history  	 history 
+of  	 of 
+NLP  	 nlp 
+generally  	 generally 
+starts  	 starts 
+in  	 in 
+the  	 the 
+1950s,  	 1950s, 
+although  	 although 
+work  	 work 
+can  	 can 
+be  	 be 
+found  	 found 
+from  	 from 
+earlier  	 earlier 
+periods.  	 periods. 
+ 	 
+In  	 in 
+1950,  	 1950, 
+Alan  	 alan 
+Turing  	 turing 
+published  	 published 
+an  	 an 
+article  	 article 
+titled  	 titled 
+"Computing  	 "computing 
+Machinery  	 machinery 
+and  	 and 
+Intelligence"  	 intelligence" 
+which  	 which 
+proposed  	 proposed 
+what  	 what 
+is  	 is 
+now  	 now 
+called  	 called 
+the  	 the 
+Turing  	 turing 
+test  	 test 
+as  	 as 
+a  	 a 
+criterion  	 criterion 
+of  	 of 
+intelligence. 	 intelligence.
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+The  	 the 
+Georgetown  	 georgetown 
+experiment  	 experiment 
+in  	 in 
+1954  	 1954 
+involved  	 involved 
+fully  	 fully 
+automatic  	 automatic 
+translation  	 translation 
+of  	 of 
+more  	 more 
+than  	 than 
+sixty  	 sixty 
+Russian  	 russian 
+sentences  	 sentences 
+into  	 into 
+English.  	 english. 
+ 	 
+The  	 the 
+authors  	 authors 
+claimed  	 claimed 
+that  	 that 
+within  	 within 
+three  	 three 
+or  	 or 
+five  	 five 
+years,  	 years, 
+machine  	 machine 
+translation  	 translation 
+would  	 would 
+be  	 be 
+a  	 a 
+solved  	 solved 
+problem.  	 problem. 
+ 	 
+However,  	 however, 
+real  	 real 
+progress  	 progress 
+was  	 was 
+much  	 much 
+slower,  	 slower, 
+and  	 and 
+after  	 after 
+the  	 the 
+ALPAC  	 alpac 
+report  	 report 
+in  	 in 
+1966,  	 1966, 
+which  	 which 
+found  	 found 
+that  	 that 
+ten  	 ten 
+year  	 year 
+long  	 long 
+research  	 research 
+had  	 had 
+failed  	 failed 
+to  	 to 
+fulfill  	 fulfill 
+the  	 the 
+expectations,  	 expectations, 
+funding  	 funding 
+for  	 for 
+machine  	 machine 
+translation  	 translation 
+was  	 was 
+dramatically  	 dramatically 
+reduced.  	 reduced. 
+ 	 
+Little  	 little 
+further  	 further 
+research  	 research 
+in  	 in 
+machine  	 machine 
+translation  	 translation 
+was  	 was 
+conducted  	 conducted 
+until  	 until 
+the  	 the 
+late  	 late 
+1980s,  	 1980s, 
+when  	 when 
+the  	 the 
+first  	 first 
+statistical  	 statistical 
+machine  	 machine 
+translation  	 translation 
+systems  	 systems 
+were  	 were 
+developed. 	 developed.
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+Some  	 some 
+notably  	 notably 
+successful  	 successful 
+NLP  	 nlp 
+systems  	 systems 
+developed  	 developed 
+in  	 in 
+the  	 the 
+1960s  	 1960s 
+were  	 were 
+SHRDLU,  	 shrdlu, 
+a  	 a 
+natural  	 natural 
+language  	 language 
+system  	 system 
+working  	 working 
+in  	 in 
+restricted  	 restricted 
+"blocks  	 "blocks 
+worlds"  	 worlds" 
+with  	 with 
+restricted  	 restricted 
+vocabularies,  	 vocabularies, 
+and  	 and 
+ELIZA,  	 eliza, 
+a  	 a 
+simulation  	 simulation 
+of  	 of 
+a  	 a 
+Rogerian  	 rogerian 
+psychotherapist,  	 psychotherapist, 
+written  	 written 
+by  	 by 
+Joseph  	 joseph 
+Weizenbaum  	 weizenbaum 
+between  	 between 
+1964  	 1964 
+to  	 to 
+1966.  	 1966. 
+ 	 
+Using  	 using 
+almost  	 almost 
+no  	 no 
+information  	 information 
+about  	 about 
+human  	 human 
+thought  	 thought 
+or  	 or 
+emotion,  	 emotion, 
+ELIZA  	 eliza 
+sometimes  	 sometimes 
+provided  	 provided 
+a  	 a 
+startlingly  	 startlingly 
+human-like  	 human-like 
+interaction.  	 interaction. 
+ 	 
+When  	 when 
+the  	 the 
+"patient"  	 "patient" 
+exceeded  	 exceeded 
+the  	 the 
+very  	 very 
+small  	 small 
+knowledge  	 knowledge 
+base,  	 base, 
+ELIZA  	 eliza 
+might  	 might 
+provide  	 provide 
+a  	 a 
+generic  	 generic 
+response,  	 response, 
+for  	 for 
+example,  	 example, 
+responding  	 responding 
+to  	 to 
+"My  	 "my 
+head  	 head 
+hurts"  	 hurts" 
+with  	 with 
+"Why  	 "why 
+do  	 do 
+you  	 you 
+say  	 say 
+your  	 your 
+head  	 head 
+hurts?". 	 hurts?".
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+During  	 during 
+the  	 the 
+1970s  	 1970s 
+many  	 many 
+programmers  	 programmers 
+began  	 began 
+to  	 to 
+write  	 write 
+'conceptual  	 'conceptual 
+ontologies',  	 ontologies', 
+which  	 which 
+structured  	 structured 
+real-world  	 real-world 
+information  	 information 
+into  	 into 
+computer-understandable  	 computer-understandable 
+data.  	 data. 
+ 	 
+Examples  	 examples 
+are  	 are 
+MARGIE  	 margie 
+(Schank,  	 (schank, 
+1975),  	 1975), 
+SAM  	 sam 
+(Cullingford,  	 (cullingford, 
+1978),  	 1978), 
+PAM  	 pam 
+(Wilensky,  	 (wilensky, 
+1978),  	 1978), 
+TaleSpin  	 talespin 
+(Meehan,  	 (meehan, 
+1976),  	 1976), 
+QUALM  	 qualm 
+(Lehnert,  	 (lehnert, 
+1977),  	 1977), 
+Politics  	 politics 
+(Carbonell,  	 (carbonell, 
+1979),  	 1979), 
+and  	 and 
+Plot  	 plot 
+Units  	 units 
+(Lehnert  	 (lehnert 
+1981).  	 1981). 
+ 	 
+During  	 during 
+this  	 this 
+time,  	 time, 
+many  	 many 
+chatterbots  	 chatterbots 
+were  	 were 
+written  	 written 
+including  	 including 
+PARRY,  	 parry, 
+Racter,  	 racter, 
+and  	 and 
+Jabberwacky. 	 jabberwacky.
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+Up  	 up 
+to  	 to 
+the  	 the 
+1980s,  	 1980s, 
+most  	 most 
+NLP  	 nlp 
+systems  	 systems 
+were  	 were 
+based  	 based 
+on  	 on 
+complex  	 complex 
+sets  	 sets 
+of  	 of 
+hand-written  	 hand-written 
+rules.  	 rules. 
+ 	 
+Starting  	 starting 
+in  	 in 
+the  	 the 
+late  	 late 
+1980s,  	 1980s, 
+however,  	 however, 
+there  	 there 
+was  	 was 
+a  	 a 
+revolution  	 revolution 
+in  	 in 
+NLP  	 nlp 
+with  	 with 
+the  	 the 
+introduction  	 introduction 
+of  	 of 
+machine  	 machine 
+learning  	 learning 
+algorithms  	 algorithms 
+for  	 for 
+language  	 language 
+processing.  	 processing. 
+ 	 
+This  	 this 
+was  	 was 
+due  	 due 
+to  	 to 
+both  	 both 
+the  	 the 
+steady  	 steady 
+increase  	 increase 
+in  	 in 
+computational  	 computational 
+power  	 power 
+resulting  	 resulting 
+from  	 from 
+Moore's  	 moore's 
+Law  	 law 
+and  	 and 
+the  	 the 
+gradual  	 gradual 
+lessening  	 lessening 
+of  	 of 
+the  	 the 
+dominance  	 dominance 
+of  	 of 
+Chomskyan  	 chomskyan 
+theories  	 theories 
+of  	 of 
+linguistics  	 linguistics 
+(e.g.  	 (e.g. 
+transformational  	 transformational 
+grammar),  	 grammar), 
+whose  	 whose 
+theoretical  	 theoretical 
+underpinnings  	 underpinnings 
+discouraged  	 discouraged 
+the  	 the 
+sort  	 sort 
+of  	 of 
+corpus  	 corpus 
+linguistics  	 linguistics 
+that  	 that 
+underlies  	 underlies 
+the  	 the 
+machine-learning  	 machine-learning 
+approach  	 approach 
+to  	 to 
+language  	 language 
+processing.  	 processing. 
+ 	 
+Some  	 some 
+of  	 of 
+the  	 the 
+earliest-used  	 earliest-used 
+machine  	 machine 
+learning  	 learning 
+algorithms,  	 algorithms, 
+such  	 such 
+as  	 as 
+decision  	 decision 
+trees,  	 trees, 
+produced  	 produced 
+systems  	 systems 
+of  	 of 
+hard  	 hard 
+if-then  	 if-then 
+rules  	 rules 
+similar  	 similar 
+to  	 to 
+existing  	 existing 
+hand-written  	 hand-written 
+rules.  	 rules. 
+ 	 
+However,  	 however, 
+Part  	 part 
+of  	 of 
+speech  	 speech 
+tagging  	 tagging 
+introduced  	 introduced 
+the  	 the 
+use  	 use 
+of  	 of 
+Hidden  	 hidden 
+Markov  	 markov 
+Models  	 models 
+to  	 to 
+NLP,  	 nlp, 
+and  	 and 
+increasingly,  	 increasingly, 
+research  	 research 
+has  	 has 
+focused  	 focused 
+on  	 on 
+statistical  	 statistical 
+models,  	 models, 
+which  	 which 
+make  	 make 
+soft,  	 soft, 
+probabilistic  	 probabilistic 
+decisions  	 decisions 
+based  	 based 
+on  	 on 
+attaching  	 attaching 
+real-valued  	 real-valued 
+weights  	 weights 
+to  	 to 
+the  	 the 
+features  	 features 
+making  	 making 
+up  	 up 
+the  	 the 
+input  	 input 
+data.  	 data. 
+ 	 
+The  	 the 
+cache  	 cache 
+language  	 language 
+models  	 models 
+upon  	 upon 
+which  	 which 
+many  	 many 
+speech  	 speech 
+recognition  	 recognition 
+systems  	 systems 
+now  	 now 
+rely  	 rely 
+are  	 are 
+examples  	 examples 
+of  	 of 
+such  	 such 
+statistical  	 statistical 
+models.  	 models. 
+ 	 
+Such  	 such 
+models  	 models 
+are  	 are 
+generally  	 generally 
+more  	 more 
+robust  	 robust 
+when  	 when 
+given  	 given 
+unfamiliar  	 unfamiliar 
+input,  	 input, 
+especially  	 especially 
+input  	 input 
+that  	 that 
+contains  	 contains 
+errors  	 errors 
+(as  	 (as 
+is  	 is 
+very  	 very 
+common  	 common 
+for  	 for 
+real-world  	 real-world 
+data),  	 data), 
+and  	 and 
+produce  	 produce 
+more  	 more 
+reliable  	 reliable 
+results  	 results 
+when  	 when 
+integrated  	 integrated 
+into  	 into 
+a  	 a 
+larger  	 larger 
+system  	 system 
+comprising  	 comprising 
+multiple  	 multiple 
+subtasks. 	 subtasks.
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+Many  	 many 
+of  	 of 
+the  	 the 
+notable  	 notable 
+early  	 early 
+successes  	 successes 
+occurred  	 occurred 
+in  	 in 
+the  	 the 
+field  	 field 
+of  	 of 
+machine  	 machine 
+translation,  	 translation, 
+due  	 due 
+especially  	 especially 
+to  	 to 
+work  	 work 
+at  	 at 
+IBM  	 ibm 
+Research,  	 research, 
+where  	 where 
+successively  	 successively 
+more  	 more 
+complicated  	 complicated 
+statistical  	 statistical 
+models  	 models 
+were  	 were 
+developed.  	 developed. 
+ 	 
+These  	 these 
+systems  	 systems 
+were  	 were 
+able  	 able 
+to  	 to 
+take  	 take 
+advantage  	 advantage 
+of  	 of 
+existing  	 existing 
+multilingual  	 multilingual 
+textual  	 textual 
+corpora  	 corpora 
+that  	 that 
+had  	 had 
+been  	 been 
+produced  	 produced 
+by  	 by 
+the  	 the 
+Parliament  	 parliament 
+of  	 of 
+Canada  	 canada 
+and  	 and 
+the  	 the 
+European  	 european 
+Union  	 union 
+as  	 as 
+a  	 a 
+result  	 result 
+of  	 of 
+laws  	 laws 
+calling  	 calling 
+for  	 for 
+the  	 the 
+translation  	 translation 
+of  	 of 
+all  	 all 
+governmental  	 governmental 
+proceedings  	 proceedings 
+into  	 into 
+all  	 all 
+official  	 official 
+languages  	 languages 
+of  	 of 
+the  	 the 
+corresponding  	 corresponding 
+systems  	 systems 
+of  	 of 
+government.  	 government. 
+ 	 
+However,  	 however, 
+most  	 most 
+other  	 other 
+systems  	 systems 
+depended  	 depended 
+on  	 on 
+corpora  	 corpora 
+specifically  	 specifically 
+developed  	 developed 
+for  	 for 
+the  	 the 
+tasks  	 tasks 
+implemented  	 implemented 
+by  	 by 
+these  	 these 
+systems,  	 systems, 
+which  	 which 
+was  	 was 
+(and  	 (and 
+often  	 often 
+continues  	 continues 
+to  	 to 
+be)  	 be) 
+a  	 a 
+major  	 major 
+limitation  	 limitation 
+in  	 in 
+the  	 the 
+success  	 success 
+of  	 of 
+these  	 these 
+systems.  	 systems. 
+ 	 
+As  	 as 
+a  	 a 
+result,  	 result, 
+a  	 a 
+great  	 great 
+deal  	 deal 
+of  	 of 
+research  	 research 
+has  	 has 
+gone  	 gone 
+into  	 into 
+methods  	 methods 
+of  	 of 
+more  	 more 
+effectively  	 effectively 
+learning  	 learning 
+from  	 from 
+limited  	 limited 
+amounts  	 amounts 
+of  	 of 
+data. 	 data.
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+Recent  	 recent 
+research  	 research 
+has  	 has 
+increasingly  	 increasingly 
+focused  	 focused 
+on  	 on 
+unsupervised  	 unsupervised 
+and  	 and 
+semi-supervised  	 semi-supervised 
+learning  	 learning 
+algorithms.  	 algorithms. 
+ 	 
+Such  	 such 
+algorithms  	 algorithms 
+are  	 are 
+able  	 able 
+to  	 to 
+learn  	 learn 
+from  	 from 
+data  	 data 
+that  	 that 
+has  	 has 
+not  	 not 
+been  	 been 
+hand-annotated  	 hand-annotated 
+with  	 with 
+the  	 the 
+desired  	 desired 
+answers,  	 answers, 
+or  	 or 
+using  	 using 
+a  	 a 
+combination  	 combination 
+of  	 of 
+annotated  	 annotated 
+and  	 and 
+non-annotated  	 non-annotated 
+data.  	 data. 
+ 	 
+Generally,  	 generally, 
+this  	 this 
+task  	 task 
+is  	 is 
+much  	 much 
+more  	 more 
+difficult  	 difficult 
+than  	 than 
+supervised  	 supervised 
+learning,  	 learning, 
+and  	 and 
+typically  	 typically 
+produces  	 produces 
+less  	 less 
+accurate  	 accurate 
+results  	 results 
+for  	 for 
+a  	 a 
+given  	 given 
+amount  	 amount 
+of  	 of 
+input  	 input 
+data.  	 data. 
+ 	 
+However,  	 however, 
+there  	 there 
+is  	 is 
+an  	 an 
+enormous  	 enormous 
+amount  	 amount 
+of  	 of 
+non-annotated  	 non-annotated 
+data  	 data 
+available  	 available 
+(including,  	 (including, 
+among  	 among 
+other  	 other 
+things,  	 things, 
+the  	 the 
+entire  	 entire 
+content  	 content 
+of  	 of 
+the  	 the 
+World  	 world 
+Wide  	 wide 
+Web),  	 web), 
+which  	 which 
+can  	 can 
+often  	 often 
+make  	 make 
+up  	 up 
+for  	 for 
+the  	 the 
+inferior  	 inferior 
+results. 	 results.
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+NLP  	 nlp 
+using  	 using 
+machine  	 machine 
+learning 	 learn
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+Modern  	 modern 
+NLP  	 nlp 
+algorithms  	 algorithms 
+are  	 are 
+based  	 based 
+on  	 on 
+machine  	 machine 
+learning,  	 learning, 
+especially  	 especially 
+statistical  	 statistical 
+machine  	 machine 
+learning.  	 learning. 
+ 	 
+The  	 the 
+paradigm  	 paradigm 
+of  	 of 
+machine  	 machine 
+learning  	 learning 
+is  	 is 
+different  	 different 
+from  	 from 
+that  	 that 
+of  	 of 
+most  	 most 
+prior  	 prior 
+attempts  	 attempts 
+at  	 at 
+language  	 language 
+processing.  	 processing. 
+ 	 
+Prior  	 prior 
+implementations  	 implementations 
+of  	 of 
+language-processing  	 language-processing 
+tasks  	 tasks 
+typically  	 typically 
+involved  	 involved 
+the  	 the 
+direct  	 direct 
+hand  	 hand 
+coding  	 coding 
+of  	 of 
+large  	 large 
+sets  	 sets 
+of  	 of 
+rules.  	 rules. 
+ 	 
+The  	 the 
+machine-learning  	 machine-learning 
+paradigm  	 paradigm 
+calls  	 calls 
+instead  	 instead 
+for  	 for 
+using  	 using 
+general  	 general 
+learning  	 learning 
+algorithms  	 algorithms 
+-  	 - 
+often,  	 often, 
+although  	 although 
+not  	 not 
+always,  	 always, 
+grounded  	 grounded 
+in  	 in 
+statistical  	 statistical 
+inference  	 inference 
+-  	 - 
+to  	 to 
+automatically  	 automatically 
+learn  	 learn 
+such  	 such 
+rules  	 rules 
+through  	 through 
+the  	 the 
+analysis  	 analysis 
+of  	 of 
+large  	 large 
+corpora  	 corpora 
+of  	 of 
+typical  	 typical 
+real-world  	 real-world 
+examples.  	 examples. 
+ 	 
+A  	 A 
+corpus  	 corpus 
+(plural,  	 (plural, 
+"corpora")  	 "corpora") 
+is  	 is 
+a  	 a 
+set  	 set 
+of  	 of 
+documents  	 documents 
+(or  	 (or 
+sometimes,  	 sometimes, 
+individual  	 individual 
+sentences)  	 sentences) 
+that  	 that 
+have  	 have 
+been  	 been 
+hand-annotated  	 hand-annotated 
+with  	 with 
+the  	 the 
+correct  	 correct 
+values  	 values 
+to  	 to 
+be  	 be 
+learned. 	 learned.
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+Many  	 many 
+different  	 different 
+classes  	 classes 
+of  	 of 
+machine  	 machine 
+learning  	 learning 
+algorithms  	 algorithms 
+have  	 have 
+been  	 been 
+applied  	 applied 
+to  	 to 
+NLP  	 nlp 
+tasks.  	 tasks. 
+ 	 
+These  	 these 
+algorithms  	 algorithms 
+take  	 take 
+as  	 as 
+input  	 input 
+a  	 a 
+large  	 large 
+set  	 set 
+of  	 of 
+"features"  	 "features" 
+that  	 that 
+are  	 are 
+generated  	 generated 
+from  	 from 
+the  	 the 
+input  	 input 
+data.  	 data. 
+ 	 
+Some  	 some 
+of  	 of 
+the  	 the 
+earliest-used  	 earliest-used 
+algorithms,  	 algorithms, 
+such  	 such 
+as  	 as 
+decision  	 decision 
+trees,  	 trees, 
+produced  	 produced 
+systems  	 systems 
+of  	 of 
+hard  	 hard 
+if-then  	 if-then 
+rules  	 rules 
+similar  	 similar 
+to  	 to 
+the  	 the 
+systems  	 systems 
+of  	 of 
+hand-written  	 hand-written 
+rules  	 rules 
+that  	 that 
+were  	 were 
+then  	 then 
+common.  	 common. 
+ 	 
+Increasingly,  	 increasingly, 
+however,  	 however, 
+research  	 research 
+has  	 has 
+focused  	 focused 
+on  	 on 
+statistical  	 statistical 
+models,  	 models, 
+which  	 which 
+make  	 make 
+soft,  	 soft, 
+probabilistic  	 probabilistic 
+decisions  	 decisions 
+based  	 based 
+on  	 on 
+attaching  	 attaching 
+real-valued  	 real-valued 
+weights  	 weights 
+to  	 to 
+each  	 each 
+input  	 input 
+feature.  	 feature. 
+ 	 
+Such  	 such 
+models  	 models 
+have  	 have 
+the  	 the 
+advantage  	 advantage 
+that  	 that 
+they  	 they 
+can  	 can 
+express  	 express 
+the  	 the 
+relative  	 relative 
+certainty  	 certainty 
+of  	 of 
+many  	 many 
+different  	 different 
+possible  	 possible 
+answers  	 answers 
+rather  	 rather 
+than  	 than 
+only  	 only 
+one,  	 one, 
+producing  	 producing 
+more  	 more 
+reliable  	 reliable 
+results  	 results 
+when  	 when 
+such  	 such 
+a  	 a 
+model  	 model 
+is  	 is 
+included  	 included 
+as  	 as 
+a  	 a 
+component  	 component 
+of  	 of 
+a  	 a 
+larger  	 larger 
+system. 	 system.
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+Systems  	 systems 
+based  	 based 
+on  	 on 
+machine-learning  	 machine-learning 
+algorithms  	 algorithms 
+have  	 have 
+many  	 many 
+advantages  	 advantages 
+over  	 over 
+hand-produced  	 hand-produced 
+rules: 	 rules:
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+The  	 the 
+learning  	 learning 
+procedures  	 procedures 
+used  	 used 
+during  	 during 
+machine  	 machine 
+learning  	 learning 
+automatically  	 automatically 
+focus  	 focus 
+on  	 on 
+the  	 the 
+most  	 most 
+common  	 common 
+cases,  	 cases, 
+whereas  	 whereas 
+when  	 when 
+writing  	 writing 
+rules  	 rules 
+by  	 by 
+hand  	 hand 
+it  	 it 
+is  	 is 
+often  	 often 
+not  	 not 
+obvious  	 obvious 
+at  	 at 
+all  	 all 
+where  	 where 
+the  	 the 
+effort  	 effort 
+should  	 should 
+be  	 be 
+directed. 	 directed.
+ 	 
+ 	 
+ 	 
+Automatic  	 automatic 
+learning  	 learning 
+procedures  	 procedures 
+can  	 can 
+make  	 make 
+use  	 use 
+of  	 of 
+statistical  	 statistical 
+inference  	 inference 
+algorithms  	 algorithms 
+to  	 to 
+produce  	 produce 
+models  	 models 
+that  	 that 
+are  	 are 
+robust  	 robust 
+to  	 to 
+unfamiliar  	 unfamiliar 
+input  	 input 
+(e.g.  	 (e.g. 
+containing  	 containing 
+words  	 words 
+or  	 or 
+structures  	 structures 
+that  	 that 
+have  	 have 
+not  	 not 
+been  	 been 
+seen  	 seen 
+before)  	 before) 
+and  	 and 
+to  	 to 
+erroneous  	 erroneous 
+input  	 input 
+(e.g.  	 (e.g. 
+with  	 with 
+misspelled  	 misspelled 
+words  	 words 
+or  	 or 
+words  	 words 
+accidentally  	 accidentally 
+omitted).  	 omitted). 
+ 	 
+Generally,  	 generally, 
+handling  	 handling 
+such  	 such 
+input  	 input 
+gracefully  	 gracefully 
+with  	 with 
+hand-written  	 hand-written 
+rules  	 rules 
+--  	 -- 
+or  	 or 
+more  	 more 
+generally,  	 generally, 
+creating  	 creating 
+systems  	 systems 
+of  	 of 
+hand-written  	 hand-written 
+rules  	 rules 
+that  	 that 
+make  	 make 
+soft  	 soft 
+decisions  	 decisions 
+--  	 -- 
+extremely  	 extremely 
+difficult,  	 difficult, 
+error-prone  	 error-prone 
+and  	 and 
+time-consuming. 	 time-consuming.
+ 	 
+ 	 
+ 	 
+Systems  	 systems 
+based  	 based 
+on  	 on 
+automatically  	 automatically 
+learning  	 learning 
+the  	 the 
+rules  	 rules 
+can  	 can 
+be  	 be 
+made  	 made 
+more  	 more 
+accurate  	 accurate 
+simply  	 simply 
+by  	 by 
+supplying  	 supplying 
+more  	 more 
+input  	 input 
+data.  	 data. 
+ 	 
+However,  	 however, 
+systems  	 systems 
+based  	 based 
+on  	 on 
+hand-written  	 hand-written 
+rules  	 rules 
+can  	 can 
+only  	 only 
+be  	 be 
+made  	 made 
+more  	 more 
+accurate  	 accurate 
+by  	 by 
+increasing  	 increasing 
+the  	 the 
+complexity  	 complexity 
+of  	 of 
+the  	 the 
+rules,  	 rules, 
+which  	 which 
+is  	 is 
+a  	 a 
+much  	 much 
+more  	 more 
+difficult  	 difficult 
+task.  	 task. 
+ 	 
+In  	 in 
+particular,  	 particular, 
+there  	 there 
+is  	 is 
+a  	 a 
+limit  	 limit 
+to  	 to 
+the  	 the 
+complexity  	 complexity 
+of  	 of 
+systems  	 systems 
+based  	 based 
+on  	 on 
+hand-crafted  	 hand-crafted 
+rules,  	 rules, 
+beyond  	 beyond 
+which  	 which 
+the  	 the 
+systems  	 systems 
+become  	 become 
+more  	 more 
+and  	 and 
+more  	 more 
+unmanageable.  	 unmanageable. 
+ 	 
+However,  	 however, 
+creating  	 creating 
+more  	 more 
+data  	 data 
+to  	 to 
+input  	 input 
+to  	 to 
+machine-learning  	 machine-learning 
+systems  	 systems 
+simply  	 simply 
+requires  	 requires 
+a  	 a 
+corresponding  	 corresponding 
+increase  	 increase 
+in  	 in 
+the  	 the 
+number  	 number 
+of  	 of 
+man-hours  	 man-hours 
+worked,  	 worked, 
+generally  	 generally 
+without  	 without 
+significant  	 significant 
+increases  	 increases 
+in  	 in 
+the  	 the 
+complexity  	 complexity 
+of  	 of 
+the  	 the 
+annotation  	 annotation 
+process. 	 process.
+ 	 
+ 	 
+ 	 
+The  	 the 
+subfield  	 subfield 
+of  	 of 
+NLP  	 nlp 
+devoted  	 devoted 
+to  	 to 
+learning  	 learning 
+approaches  	 approaches 
+is  	 is 
+known  	 known 
+as  	 as 
+Natural  	 natural 
+Language  	 language 
+Learning  	 learning 
+(NLL)  	 (nll) 
+and  	 and 
+its  	 its 
+conference  	 conference 
+CoNLL  	 conll 
+and  	 and 
+peak  	 peak 
+body  	 body 
+SIGNLL  	 signll 
+are  	 are 
+sponsored  	 sponsored 
+by  	 by 
+ACL,  	 acl, 
+recognizing  	 recognizing 
+also  	 also 
+their  	 their 
+links  	 links 
+with  	 with 
+Computational  	 computational 
+Linguistics  	 linguistics 
+and  	 and 
+Language  	 language 
+Acquisition.  	 acquisition. 
+ 	 
+When  	 when 
+the  	 the 
+aims  	 aims 
+of  	 of 
+computational  	 computational 
+language  	 language 
+learning  	 learning 
+research  	 research 
+is  	 is 
+to  	 to 
+understand  	 understand 
+more  	 more 
+about  	 about 
+human  	 human 
+language  	 language 
+acquisition,  	 acquisition, 
+or  	 or 
+psycholinguistics,  	 psycholinguistics, 
+NLL  	 nll 
+overlaps  	 overlaps 
+into  	 into 
+the  	 the 
+related  	 related 
+field  	 field 
+of  	 of 
+Computational  	 computational 
+Psycholinguistics. 	 psycholinguistics.
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
+ 	 
