@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle]
+	ROOT -> based
+	based -> NLP
+	NLP -> using
+	algorithms -> machine
+	algorithms -> learning
+	algorithms -> Modern
+	algorithms -> NLP
+	using -> algorithms
+	based -> are
+	learning -> machine
+	based -> learning
+	learning -> especially
+	learning -> statistical
+	learning -> machine
+	learning -> learning
+}

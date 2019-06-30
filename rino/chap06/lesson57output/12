@@ -1,0 +1,31 @@
+digraph {
+	node [shape=circle]
+	ROOT -> provide
+	exceeded -> When
+	patient -> the
+	exceeded -> patient
+	provide -> exceeded
+	base -> the
+	small -> very
+	base -> small
+	base -> knowledge
+	exceeded -> base
+	provide -> ELIZA
+	provide -> might
+	response -> a
+	response -> generic
+	provide -> response
+	hurts -> example
+	hurts -> responding
+	head -> My
+	responding -> head
+	response -> hurts
+	provide -> with
+	say -> Why
+	say -> do
+	say -> you
+	with -> say
+	head -> your
+	hurts -> head
+	say -> hurts
+}

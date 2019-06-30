@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle]
+	ROOT -> began
+	"1970s" -> the
+	began -> "1970s"
+	programmers -> many
+	began -> programmers
+	write -> to
+	began -> write
+	write -> conceptual
+	conceptual -> ontologies
+	structured -> which
+	conceptual -> structured
+	information -> "real-world"
+	structured -> information
+	data -> "computer-understandable"
+	structured -> data
+}

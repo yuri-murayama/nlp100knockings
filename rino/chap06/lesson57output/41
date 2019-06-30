@@ -1,0 +1,36 @@
+digraph {
+	node [shape=circle]
+	ROOT -> have
+	models -> Such
+	have -> models
+	advantage -> the
+	have -> advantage
+	express -> that
+	express -> they
+	express -> can
+	have -> express
+	certainty -> the
+	certainty -> relative
+	express -> certainty
+	answers -> many
+	answers -> different
+	answers -> possible
+	certainty -> answers
+	one -> only
+	answers -> one
+	have -> producing
+	results -> more
+	results -> reliable
+	producing -> results
+	included -> when
+	model -> such
+	model -> a
+	included -> model
+	included -> is
+	producing -> included
+	component -> a
+	included -> component
+	system -> a
+	system -> larger
+	component -> system
+}

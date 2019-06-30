@@ -1,0 +1,21 @@
+digraph {
+	node [shape=circle]
+	ROOT -> was
+	was -> Starting
+	Starting -> in
+	"1980s" -> the
+	"1980s" -> late
+	in -> "1980s"
+	was -> however
+	was -> there
+	revolution -> a
+	was -> revolution
+	revolution -> NLP
+	introduction -> the
+	was -> introduction
+	algorithms -> machine
+	algorithms -> learning
+	introduction -> algorithms
+	processing -> language
+	algorithms -> processing
+}

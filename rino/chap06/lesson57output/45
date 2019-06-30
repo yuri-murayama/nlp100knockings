@@ -1,0 +1,19 @@
+digraph {
+	node [shape=circle]
+	ROOT -> made
+	made -> Systems
+	Systems -> based
+	learning -> automatically
+	based -> learning
+	rules -> the
+	learning -> rules
+	made -> can
+	made -> be
+	accurate -> more
+	made -> accurate
+	made -> simply
+	made -> supplying
+	data -> more
+	data -> input
+	supplying -> data
+}

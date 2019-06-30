@@ -1,0 +1,25 @@
+digraph {
+	node [shape=circle]
+	ROOT -> published
+	published -> 1950
+	Turing -> Alan
+	published -> Turing
+	article -> an
+	published -> article
+	article -> titled
+	Machinery -> Computing
+	titled -> Machinery
+	Machinery -> Intelligence
+	proposed -> which
+	article -> proposed
+	called -> what
+	called -> is
+	called -> now
+	proposed -> called
+	test -> the
+	test -> Turing
+	called -> test
+	criterion -> a
+	called -> criterion
+	criterion -> intelligence
+}

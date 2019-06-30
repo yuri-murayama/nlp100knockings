@@ -1,0 +1,35 @@
+digraph {
+	node [shape=circle]
+	ROOT -> SHRDLU
+	systems -> Some
+	systems -> notably
+	systems -> successful
+	systems -> NLP
+	SHRDLU -> systems
+	systems -> developed
+	"1960s" -> the
+	developed -> "1960s"
+	SHRDLU -> were
+	system -> a
+	system -> natural
+	system -> language
+	SHRDLU -> system
+	system -> working
+	working -> restricted
+	worlds -> blocks
+	working -> worlds
+	vocabularies -> restricted
+	worlds -> vocabularies
+	written -> ELIZA
+	simulation -> a
+	ELIZA -> simulation
+	psychotherapist -> a
+	psychotherapist -> Rogerian
+	simulation -> psychotherapist
+	SHRDLU -> written
+	Weizenbaum -> Joseph
+	written -> Weizenbaum
+	1966 -> 1964
+	1966 -> to
+	Weizenbaum -> 1966
+}

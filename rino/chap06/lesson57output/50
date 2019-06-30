@@ -1,0 +1,25 @@
+digraph {
+	node [shape=circle]
+	ROOT -> overlaps
+	is -> When
+	aims -> the
+	is -> aims
+	language -> computational
+	aims -> language
+	language -> learning
+	learning -> research
+	overlaps -> is
+	understand -> to
+	is -> understand
+	understand -> more
+	acquisition -> human
+	acquisition -> language
+	understand -> acquisition
+	acquisition -> psycholinguistics
+	overlaps -> NLL
+	field -> the
+	field -> related
+	overlaps -> field
+	Psycholinguistics -> Computational
+	field -> Psycholinguistics
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle]
+	ROOT -> provided
+	provided -> Using
+	information -> almost
+	information -> no
+	Using -> information
+	thought -> human
+	Using -> thought
+	thought -> emotion
+	provided -> ELIZA
+	provided -> sometimes
+	interaction -> a
+	"human-like" -> startlingly
+	interaction -> "human-like"
+	provided -> interaction
+}

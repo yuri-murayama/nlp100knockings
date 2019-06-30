@@ -1,0 +1,32 @@
+digraph {
+	node [shape=circle]
+	ROOT -> sponsored
+	subfield -> The
+	known -> subfield
+	subfield -> NLP
+	NLP -> devoted
+	devoted -> learning
+	learning -> approaches
+	known -> is
+	sponsored -> known
+	Language -> Natural
+	known -> Language
+	Language -> Learning
+	Learning -> NLL
+	CoNLL -> its
+	CoNLL -> conference
+	Language -> CoNLL
+	body -> peak
+	CoNLL -> body
+	sponsored -> SIGNLL
+	sponsored -> are
+	sponsored -> ACL
+	sponsored -> recognizing
+	recognizing -> also
+	links -> their
+	recognizing -> links
+	Linguistics -> Computational
+	recognizing -> Linguistics
+	Acquisition -> Language
+	Linguistics -> Acquisition
+}

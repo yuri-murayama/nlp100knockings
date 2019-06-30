@@ -1,0 +1,24 @@
+digraph {
+	node [shape=circle]
+	ROOT -> handling
+	handling -> Generally
+	input -> such
+	handling -> input
+	input -> gracefully
+	rules -> "hand-written"
+	gracefully -> rules
+	gracefully -> more
+	handling -> generally
+	handling -> creating
+	creating -> systems
+	rules -> "hand-written"
+	systems -> rules
+	make -> that
+	systems -> make
+	decisions -> soft
+	make -> decisions
+	difficult -> extremely
+	decisions -> difficult
+	difficult -> "error-prone"
+	difficult -> "time-consuming"
+}

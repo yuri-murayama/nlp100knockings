@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle]
+	ROOT -> related
+	related -> such
+	related -> NLP
+	related -> is
+	area -> the
+	related -> area
+	interaction -> "humani-computer"
+	area -> interaction
+}

@@ -1,0 +1,32 @@
+digraph {
+	node [shape=circle]
+	ROOT -> calls
+	paradigm -> The
+	paradigm -> "machine-learning"
+	calls -> paradigm
+	for -> instead
+	calls -> for
+	for -> using
+	algorithms -> general
+	algorithms -> learning
+	using -> algorithms
+	algorithms -> often
+	not -> although
+	using -> not
+	not -> always
+	using -> grounded
+	inference -> statistical
+	grounded -> inference
+	learn -> to
+	learn -> automatically
+	for -> learn
+	rules -> such
+	learn -> rules
+	analysis -> the
+	learn -> analysis
+	corpora -> large
+	analysis -> corpora
+	examples -> typical
+	examples -> "real-world"
+	corpora -> examples
+}

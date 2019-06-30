@@ -1,0 +1,22 @@
+digraph {
+	node [shape=circle]
+	ROOT -> difficult
+	difficult -> Generally
+	task -> this
+	difficult -> task
+	difficult -> is
+	difficult -> much
+	difficult -> more
+	learning -> supervised
+	difficult -> learning
+	produces -> typically
+	difficult -> produces
+	accurate -> less
+	results -> accurate
+	produces -> results
+	amount -> a
+	amount -> given
+	results -> amount
+	data -> input
+	amount -> data
+}

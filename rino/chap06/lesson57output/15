@@ -1,0 +1,27 @@
+digraph {
+	node [shape=circle]
+	ROOT -> MARGIE
+	MARGIE -> Examples
+	MARGIE -> are
+	MARGIE -> Schank
+	Schank -> 1975
+	MARGIE -> SAM
+	SAM -> Cullingford
+	Cullingford -> 1978
+	SAM -> PAM
+	PAM -> Wilensky
+	Wilensky -> 1978
+	SAM -> TaleSpin
+	TaleSpin -> Meehan
+	Meehan -> 1976
+	SAM -> QUALM
+	QUALM -> Lehnert
+	Lehnert -> 1977
+	SAM -> Politics
+	Politics -> Carbonell
+	Carbonell -> 1979
+	Units -> Plot
+	SAM -> Units
+	Units -> Lehnert
+	Lehnert -> 1981
+}

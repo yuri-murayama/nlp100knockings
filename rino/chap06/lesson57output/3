@@ -1,0 +1,26 @@
+digraph {
+	node [shape=circle]
+	ROOT -> involve
+	challenges -> Many
+	involve -> challenges
+	challenges -> NLP
+	understanding -> natural
+	understanding -> language
+	enabling -> understanding
+	is -> that
+	understanding -> is
+	involve -> enabling
+	enabling -> computers
+	derive -> to
+	enabling -> derive
+	derive -> meaning
+	input -> human
+	human -> natural
+	input -> language
+	derive -> input
+	involve -> others
+	involve -> involve
+	generation -> natural
+	generation -> language
+	involve -> generation
+}

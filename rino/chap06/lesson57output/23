@@ -1,0 +1,36 @@
+digraph {
+	node [shape=circle]
+	ROOT -> robust
+	models -> Such
+	robust -> models
+	robust -> are
+	robust -> generally
+	robust -> more
+	given -> when
+	robust -> given
+	input -> unfamiliar
+	given -> input
+	input -> especially
+	input -> input
+	contains -> that
+	input -> contains
+	contains -> errors
+	common -> as
+	common -> is
+	common -> very
+	errors -> common
+	data -> "real-world"
+	common -> data
+	given -> produce
+	results -> more
+	results -> reliable
+	produce -> results
+	integrated -> when
+	produce -> integrated
+	system -> a
+	system -> larger
+	integrated -> system
+	system -> comprising
+	subtasks -> multiple
+	comprising -> subtasks
+}

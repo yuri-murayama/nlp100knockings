@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle]
+	ROOT -> written
+	time -> this
+	written -> time
+	chatterbots -> many
+	written -> chatterbots
+	written -> were
+	written -> PARRY
+	PARRY -> Racter
+	PARRY -> Jabberwacky
+}

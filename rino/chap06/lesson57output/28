@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle]
+	ROOT -> focused
+	research -> Recent
+	focused -> research
+	focused -> has
+	focused -> increasingly
+	algorithms -> unsupervised
+	unsupervised -> "semi-supervised"
+	algorithms -> learning
+	focused -> algorithms
+}

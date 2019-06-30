@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle]
+	ROOT -> different
+	paradigm -> The
+	different -> paradigm
+	learning -> machine
+	paradigm -> learning
+	different -> is
+	different -> that
+	that -> most
+	attempts -> prior
+	most -> attempts
+	processing -> language
+	attempts -> processing
+}

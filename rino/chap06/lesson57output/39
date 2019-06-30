@@ -1,0 +1,23 @@
+digraph {
+	node [shape=circle]
+	ROOT -> produced
+	produced -> Some
+	algorithms -> the
+	algorithms -> "earliest-used"
+	Some -> algorithms
+	trees -> decision
+	Some -> trees
+	produced -> systems
+	rules -> hard
+	rules -> "if-then"
+	systems -> rules
+	rules -> similar
+	systems -> the
+	similar -> systems
+	rules -> "hand-written"
+	systems -> rules
+	common -> that
+	common -> were
+	common -> then
+	systems -> common
+}

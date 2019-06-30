@@ -1,0 +1,19 @@
+digraph {
+	node [shape=circle]
+	ROOT -> examples
+	models -> The
+	models -> cache
+	models -> language
+	examples -> models
+	rely -> which
+	systems -> many
+	systems -> speech
+	systems -> recognition
+	rely -> systems
+	rely -> now
+	models -> rely
+	examples -> are
+	models -> such
+	models -> statistical
+	examples -> models
+}

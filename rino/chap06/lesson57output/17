@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle]
+	ROOT -> based
+	based -> Up
+	Up -> to
+	"1980s" -> the
+	to -> "1980s"
+	systems -> most
+	systems -> NLP
+	based -> systems
+	based -> were
+	sets -> complex
+	based -> sets
+	rules -> "hand-written"
+	sets -> rules
+}

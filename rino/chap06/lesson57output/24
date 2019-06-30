@@ -1,0 +1,27 @@
+digraph {
+	node [shape=circle]
+	ROOT -> occurred
+	occurred -> Many
+	successes -> the
+	successes -> notable
+	successes -> early
+	Many -> successes
+	field -> the
+	occurred -> field
+	translation -> machine
+	field -> translation
+	translation -> due
+	due -> especially
+	work -> to
+	due -> work
+	Research -> IBM
+	work -> Research
+	developed -> where
+	developed -> successively
+	complicated -> more
+	models -> complicated
+	models -> statistical
+	developed -> models
+	developed -> were
+	translation -> developed
+}

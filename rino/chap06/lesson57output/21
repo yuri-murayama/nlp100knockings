@@ -1,0 +1,36 @@
+digraph {
+	node [shape=circle]
+	ROOT -> introduced
+	introduced -> However
+	introduced -> Part
+	tagging -> speech
+	Part -> tagging
+	use -> the
+	introduced -> use
+	Models -> Hidden
+	Models -> Markov
+	use -> Models
+	introduced -> NLP
+	focused -> increasingly
+	focused -> research
+	focused -> has
+	introduced -> focused
+	models -> statistical
+	focused -> models
+	make -> which
+	models -> make
+	decisions -> soft
+	decisions -> probabilistic
+	make -> decisions
+	make -> on
+	make -> attaching
+	weights -> "real-valued"
+	attaching -> weights
+	features -> the
+	attaching -> features
+	features -> making
+	making -> up
+	data -> the
+	data -> input
+	making -> data
+}

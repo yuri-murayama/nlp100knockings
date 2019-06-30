@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle]
+	ROOT -> involved
+	experiment -> The
+	experiment -> Georgetown
+	involved -> experiment
+	experiment -> 1954
+	automatic -> fully
+	translation -> automatic
+	involved -> translation
+	than -> more
+	sixty -> than
+	sentences -> sixty
+	sentences -> Russian
+	translation -> sentences
+	involved -> English
+}

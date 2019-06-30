@@ -1,0 +1,32 @@
+digraph {
+	node [shape=circle]
+	ROOT -> slower
+	slower -> However
+	progress -> real
+	slower -> progress
+	slower -> was
+	slower -> much
+	report -> the
+	report -> ALPAC
+	reduced -> report
+	report -> 1966
+	found -> which
+	report -> found
+	failed -> that
+	year -> ten
+	failed -> year
+	research -> long
+	failed -> research
+	failed -> had
+	found -> failed
+	fulfill -> to
+	failed -> fulfill
+	expectations -> the
+	fulfill -> expectations
+	reduced -> funding
+	funding -> machine
+	reduced -> translation
+	reduced -> was
+	reduced -> dramatically
+	slower -> reduced
+}

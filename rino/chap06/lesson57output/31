@@ -1,0 +1,30 @@
+digraph {
+	node [shape=circle]
+	ROOT -> is
+	is -> However
+	is -> there
+	amount -> an
+	amount -> enormous
+	is -> amount
+	data -> "non-annotated"
+	amount -> data
+	data -> available
+	amount -> including
+	things -> other
+	including -> things
+	content -> the
+	content -> entire
+	including -> content
+	Web -> the
+	Web -> World
+	Web -> Wide
+	content -> Web
+	make -> which
+	make -> can
+	make -> often
+	amount -> make
+	make -> up
+	results -> the
+	results -> inferior
+	make -> results
+}

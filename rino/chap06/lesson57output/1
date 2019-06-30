@@ -1,0 +1,29 @@
+digraph {
+	node [shape=circle]
+	ROOT -> field
+	processing -> Natural
+	processing -> language
+	field -> processing
+	field -> Wikipedia
+	processing -> the
+	processing -> free
+	processing -> encyclopedia
+	processing -> Natural
+	processing -> language
+	field -> processing
+	processing -> NLP
+	field -> is
+	field -> a
+	science -> computer
+	field -> science
+	intelligence -> artificial
+	field -> intelligence
+	field -> linguistics
+	linguistics -> concerned
+	interactions -> the
+	concerned -> interactions
+	interactions -> computers
+	languages -> human
+	languages -> natural
+	computers -> languages
+}

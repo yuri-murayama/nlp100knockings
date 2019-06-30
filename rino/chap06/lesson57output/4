@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle]
+	ROOT -> starts
+	history -> History
+	history -> The
+	starts -> history
+	history -> NLP
+	starts -> generally
+	"1950s" -> the
+	starts -> "1950s"
+	found -> although
+	found -> work
+	found -> can
+	found -> be
+	starts -> found
+	periods -> earlier
+	found -> periods
+}

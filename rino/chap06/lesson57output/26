@@ -1,0 +1,30 @@
+digraph {
+	node [shape=circle]
+	ROOT -> developed
+	depended -> However
+	systems -> most
+	systems -> other
+	depended -> systems
+	developed -> depended
+	depended -> corpora
+	developed -> specifically
+	tasks -> the
+	developed -> tasks
+	tasks -> implemented
+	systems -> these
+	implemented -> systems
+	was -> which
+	systems -> was
+	continues -> and
+	continues -> often
+	was -> continues
+	be -> to
+	continues -> be
+	limitation -> a
+	limitation -> major
+	developed -> limitation
+	success -> the
+	limitation -> success
+	systems -> these
+	success -> systems
+}
