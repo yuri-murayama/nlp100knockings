@@ -20,3 +20,4 @@ for s in root.iter('parse'):
         if r[1:3] == 'NP':
             m2 = pattern2.findall(r)
             print(" ".join(m2))
+    print()
