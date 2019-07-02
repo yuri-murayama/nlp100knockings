@@ -12,7 +12,6 @@ digraph {
 	9 [label=over]
 	10 [label="hand-produced"]
 	11 [label=rules]
-	12 [label=":"]
 	13 [label=The]
 	14 [label=learning]
 	15 [label=procedures]
@@ -27,7 +26,6 @@ digraph {
 	24 [label=most]
 	25 [label=common]
 	26 [label=cases]
-	27 [label=","]
 	28 [label=whereas]
 	29 [label=when]
 	30 [label=writing]
@@ -47,7 +45,6 @@ digraph {
 	44 [label=should]
 	45 [label=be]
 	46 [label=directed]
-	47 [label="."]
 	0 -> 6
 	6 -> 1
 	5 -> 2
@@ -59,7 +56,6 @@ digraph {
 	11 -> 9
 	11 -> 10
 	8 -> 11
-	6 -> 12
 	15 -> 13
 	15 -> 14
 	21 -> 15
@@ -74,7 +70,6 @@ digraph {
 	26 -> 24
 	26 -> 25
 	21 -> 26
-	26 -> 27
 	38 -> 28
 	30 -> 29
 	38 -> 30
@@ -94,5 +89,4 @@ digraph {
 	46 -> 44
 	46 -> 45
 	38 -> 46
-	6 -> 47
 }

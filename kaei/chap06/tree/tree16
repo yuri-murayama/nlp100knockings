@@ -4,33 +4,25 @@ digraph {
 	1 [label=During]
 	2 [label=this]
 	3 [label=time]
-	4 [label=","]
 	5 [label=many]
 	6 [label=chatterbots]
 	7 [label=were]
 	8 [label=written]
 	9 [label=including]
 	10 [label=PARRY]
-	11 [label=","]
 	12 [label=Racter]
-	13 [label=","]
 	14 [label=and]
 	15 [label=Jabberwacky]
-	16 [label="."]
 	0 -> 8
 	3 -> 1
 	3 -> 2
 	8 -> 3
-	8 -> 4
 	6 -> 5
 	8 -> 6
 	8 -> 7
 	10 -> 9
 	8 -> 10
-	10 -> 11
 	10 -> 12
-	10 -> 13
 	10 -> 14
 	10 -> 15
-	8 -> 16
 }

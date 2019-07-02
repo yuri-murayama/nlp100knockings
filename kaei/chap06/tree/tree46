@@ -2,7 +2,6 @@ digraph {
 	node [shape=circle]
 	0 [label=ROOT]
 	1 [label=However]
-	2 [label=","]
 	3 [label=systems]
 	4 [label=based]
 	5 [label=on]
@@ -21,7 +20,6 @@ digraph {
 	18 [label=of]
 	19 [label=the]
 	20 [label=rules]
-	21 [label=","]
 	22 [label=which]
 	23 [label=is]
 	24 [label=a]
@@ -29,10 +27,8 @@ digraph {
 	26 [label=more]
 	27 [label=difficult]
 	28 [label=task]
-	29 [label="."]
 	0 -> 11
 	11 -> 1
-	11 -> 2
 	11 -> 3
 	7 -> 4
 	4 -> 5
@@ -50,7 +46,6 @@ digraph {
 	20 -> 18
 	20 -> 19
 	17 -> 20
-	20 -> 21
 	28 -> 22
 	28 -> 23
 	28 -> 24
@@ -58,5 +53,4 @@ digraph {
 	27 -> 26
 	28 -> 27
 	20 -> 28
-	11 -> 29
 }

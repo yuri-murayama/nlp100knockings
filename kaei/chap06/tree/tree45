@@ -19,7 +19,6 @@ digraph {
 	16 [label=more]
 	17 [label=input]
 	18 [label=data]
-	19 [label="."]
 	0 -> 10
 	10 -> 1
 	1 -> 2
@@ -38,5 +37,4 @@ digraph {
 	18 -> 16
 	18 -> 17
 	15 -> 18
-	10 -> 19
 }

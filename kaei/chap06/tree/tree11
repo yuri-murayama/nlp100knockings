@@ -10,7 +10,6 @@ digraph {
 	7 [label=thought]
 	8 [label=or]
 	9 [label=emotion]
-	10 [label=","]
 	11 [label=ELIZA]
 	12 [label=sometimes]
 	13 [label=provided]
@@ -18,7 +17,6 @@ digraph {
 	15 [label=startlingly]
 	16 [label="human-like"]
 	17 [label=interaction]
-	18 [label="."]
 	0 -> 13
 	13 -> 1
 	4 -> 2
@@ -29,12 +27,10 @@ digraph {
 	1 -> 7
 	7 -> 8
 	7 -> 9
-	13 -> 10
 	13 -> 11
 	13 -> 12
 	17 -> 14
 	16 -> 15
 	17 -> 16
 	13 -> 17
-	13 -> 18
 }

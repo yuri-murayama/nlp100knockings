@@ -13,12 +13,10 @@ digraph {
 	10 [label=on]
 	11 [label=machine]
 	12 [label=learning]
-	13 [label=","]
 	14 [label=especially]
 	15 [label=statistical]
 	16 [label=machine]
 	17 [label=learning]
-	18 [label="."]
 	0 -> 9
 	9 -> 1
 	1 -> 2
@@ -31,10 +29,8 @@ digraph {
 	12 -> 10
 	12 -> 11
 	9 -> 12
-	12 -> 13
 	12 -> 14
 	17 -> 15
 	17 -> 16
 	12 -> 17
-	9 -> 18
 }

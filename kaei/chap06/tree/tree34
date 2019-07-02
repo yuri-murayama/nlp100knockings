@@ -17,7 +17,6 @@ digraph {
 	14 [label=sets]
 	15 [label=of]
 	16 [label=rules]
-	17 [label="."]
 	0 -> 7
 	7 -> 1
 	7 -> 2
@@ -34,5 +33,4 @@ digraph {
 	11 -> 14
 	16 -> 15
 	14 -> 16
-	7 -> 17
 }

@@ -18,7 +18,6 @@ digraph {
 	15 [label=sentences]
 	16 [label=into]
 	17 [label=English]
-	18 [label="."]
 	0 -> 6
 	3 -> 1
 	3 -> 2
@@ -36,5 +35,4 @@ digraph {
 	9 -> 15
 	17 -> 16
 	6 -> 17
-	6 -> 18
 }

@@ -2,7 +2,6 @@ digraph {
 	node [shape=circle]
 	0 [label=ROOT]
 	1 [label=However]
-	2 [label=","]
 	3 [label=creating]
 	4 [label=more]
 	5 [label=data]
@@ -22,7 +21,6 @@ digraph {
 	19 [label=of]
 	20 [label="man-hours"]
 	21 [label=worked]
-	22 [label=","]
 	23 [label=generally]
 	24 [label=without]
 	25 [label=significant]
@@ -34,10 +32,8 @@ digraph {
 	31 [label=the]
 	32 [label=annotation]
 	33 [label=process]
-	34 [label="."]
 	0 -> 3
 	3 -> 1
-	3 -> 2
 	5 -> 4
 	3 -> 5
 	7 -> 6
@@ -56,7 +52,6 @@ digraph {
 	20 -> 19
 	18 -> 20
 	12 -> 21
-	12 -> 22
 	26 -> 23
 	26 -> 24
 	26 -> 25
@@ -68,5 +63,4 @@ digraph {
 	33 -> 31
 	33 -> 32
 	29 -> 33
-	3 -> 34
 }

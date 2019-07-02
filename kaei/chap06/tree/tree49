@@ -15,9 +15,7 @@ digraph {
 	12 [label=Natural]
 	13 [label=Language]
 	14 [label=Learning]
-	15 [label="-LRB-"]
 	16 [label=NLL]
-	17 [label="-RRB-"]
 	18 [label=and]
 	19 [label=its]
 	20 [label=conference]
@@ -30,7 +28,6 @@ digraph {
 	27 [label=sponsored]
 	28 [label=by]
 	29 [label=ACL]
-	30 [label=","]
 	31 [label=recognizing]
 	32 [label=also]
 	33 [label=their]
@@ -41,7 +38,6 @@ digraph {
 	38 [label=and]
 	39 [label=Language]
 	40 [label=Acquisition]
-	41 [label="."]
 	0 -> 27
 	2 -> 1
 	27 -> 2
@@ -57,9 +53,7 @@ digraph {
 	14 -> 12
 	14 -> 13
 	10 -> 14
-	16 -> 15
 	14 -> 16
-	16 -> 17
 	10 -> 18
 	21 -> 19
 	21 -> 20
@@ -71,7 +65,6 @@ digraph {
 	27 -> 26
 	29 -> 28
 	27 -> 29
-	27 -> 30
 	27 -> 31
 	31 -> 32
 	34 -> 33
@@ -82,5 +75,4 @@ digraph {
 	37 -> 38
 	40 -> 39
 	37 -> 40
-	27 -> 41
 }

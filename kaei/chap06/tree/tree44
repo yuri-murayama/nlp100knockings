@@ -2,7 +2,6 @@ digraph {
 	node [shape=circle]
 	0 [label=ROOT]
 	1 [label=Generally]
-	2 [label=","]
 	3 [label=handling]
 	4 [label=such]
 	5 [label=input]
@@ -10,11 +9,9 @@ digraph {
 	7 [label=with]
 	8 [label="hand-written"]
 	9 [label=rules]
-	10 [label="--"]
 	11 [label=or]
 	12 [label=more]
 	13 [label=generally]
-	14 [label=","]
 	15 [label=creating]
 	16 [label=systems]
 	17 [label=of]
@@ -24,28 +21,22 @@ digraph {
 	21 [label=make]
 	22 [label=soft]
 	23 [label=decisions]
-	24 [label="--"]
 	25 [label=extremely]
 	26 [label=difficult]
-	27 [label=","]
 	28 [label="error-prone"]
 	29 [label=and]
 	30 [label="time-consuming"]
-	31 [label="."]
 	0 -> 3
 	3 -> 1
-	3 -> 2
 	5 -> 4
 	3 -> 5
 	11 -> 6
 	9 -> 7
 	9 -> 8
 	6 -> 9
-	11 -> 10
 	5 -> 11
 	11 -> 12
 	3 -> 13
-	3 -> 14
 	3 -> 15
 	15 -> 16
 	19 -> 17
@@ -55,12 +46,9 @@ digraph {
 	16 -> 21
 	23 -> 22
 	21 -> 23
-	23 -> 24
 	26 -> 25
 	23 -> 26
-	26 -> 27
 	26 -> 28
 	26 -> 29
 	26 -> 30
-	3 -> 31
 }

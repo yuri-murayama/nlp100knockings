@@ -3,7 +3,6 @@ digraph {
 	0 [label=ROOT]
 	1 [label=As]
 	2 [label=such]
-	3 [label=","]
 	4 [label=NLP]
 	5 [label=is]
 	6 [label=related]
@@ -13,11 +12,9 @@ digraph {
 	10 [label=of]
 	11 [label="humani-computer"]
 	12 [label=interaction]
-	13 [label="."]
 	0 -> 6
 	2 -> 1
 	6 -> 2
-	6 -> 3
 	6 -> 4
 	6 -> 5
 	9 -> 7
@@ -26,5 +23,4 @@ digraph {
 	12 -> 10
 	12 -> 11
 	9 -> 12
-	6 -> 13
 }

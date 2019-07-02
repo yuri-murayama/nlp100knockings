@@ -49,7 +49,6 @@ digraph {
 	46 [label=systems]
 	47 [label=of]
 	48 [label=government]
-	49 [label="."]
 	0 -> 4
 	2 -> 1
 	4 -> 2
@@ -98,5 +97,4 @@ digraph {
 	42 -> 46
 	48 -> 47
 	46 -> 48
-	4 -> 49
 }

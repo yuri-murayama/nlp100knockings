@@ -14,7 +14,6 @@ digraph {
 	11 [label=of]
 	12 [label=machine]
 	13 [label=translation]
-	14 [label=","]
 	15 [label=due]
 	16 [label=especially]
 	17 [label=to]
@@ -22,7 +21,6 @@ digraph {
 	19 [label=at]
 	20 [label=IBM]
 	21 [label=Research]
-	22 [label=","]
 	23 [label=where]
 	24 [label=successively]
 	25 [label=more]
@@ -31,7 +29,6 @@ digraph {
 	28 [label=models]
 	29 [label=were]
 	30 [label=developed]
-	31 [label="."]
 	0 -> 7
 	7 -> 1
 	6 -> 2
@@ -45,7 +42,6 @@ digraph {
 	13 -> 11
 	13 -> 12
 	10 -> 13
-	13 -> 14
 	13 -> 15
 	15 -> 16
 	18 -> 17
@@ -53,7 +49,6 @@ digraph {
 	21 -> 19
 	21 -> 20
 	18 -> 21
-	13 -> 22
 	30 -> 23
 	30 -> 24
 	26 -> 25
@@ -62,5 +57,4 @@ digraph {
 	30 -> 28
 	30 -> 29
 	13 -> 30
-	7 -> 31
 }

@@ -12,7 +12,6 @@ digraph {
 	9 [label="semi-supervised"]
 	10 [label=learning]
 	11 [label=algorithms]
-	12 [label="."]
 	0 -> 5
 	2 -> 1
 	5 -> 2
@@ -24,5 +23,4 @@ digraph {
 	7 -> 9
 	11 -> 10
 	5 -> 11
-	5 -> 12
 }

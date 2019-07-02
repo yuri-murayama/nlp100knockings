@@ -18,7 +18,6 @@ digraph {
 	15 [label=the]
 	16 [label=desired]
 	17 [label=answers]
-	18 [label=","]
 	19 [label=or]
 	20 [label=using]
 	21 [label=a]
@@ -28,7 +27,6 @@ digraph {
 	25 [label=and]
 	26 [label="non-annotated"]
 	27 [label=data]
-	28 [label="."]
 	0 -> 4
 	2 -> 1
 	4 -> 2
@@ -46,7 +44,6 @@ digraph {
 	17 -> 15
 	17 -> 16
 	13 -> 17
-	6 -> 18
 	6 -> 19
 	6 -> 20
 	22 -> 21
@@ -56,5 +53,4 @@ digraph {
 	24 -> 25
 	24 -> 26
 	22 -> 27
-	4 -> 28
 }

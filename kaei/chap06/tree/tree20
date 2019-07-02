@@ -8,12 +8,10 @@ digraph {
 	5 [label=machine]
 	6 [label=learning]
 	7 [label=algorithms]
-	8 [label=","]
 	9 [label=such]
 	10 [label=as]
 	11 [label=decision]
 	12 [label=trees]
-	13 [label=","]
 	14 [label=produced]
 	15 [label=systems]
 	16 [label=of]
@@ -25,7 +23,6 @@ digraph {
 	22 [label=existing]
 	23 [label="hand-written"]
 	24 [label=rules]
-	25 [label="."]
 	0 -> 14
 	14 -> 1
 	5 -> 2
@@ -34,12 +31,10 @@ digraph {
 	1 -> 5
 	5 -> 6
 	6 -> 7
-	7 -> 8
 	12 -> 9
 	9 -> 10
 	12 -> 11
 	7 -> 12
-	7 -> 13
 	14 -> 15
 	19 -> 16
 	19 -> 17
@@ -50,5 +45,4 @@ digraph {
 	24 -> 22
 	24 -> 23
 	20 -> 24
-	14 -> 25
 }

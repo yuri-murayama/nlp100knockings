@@ -3,7 +3,6 @@ digraph {
 	0 [label=ROOT]
 	1 [label=In]
 	2 [label=particular]
-	3 [label=","]
 	4 [label=there]
 	5 [label=is]
 	6 [label=a]
@@ -17,7 +16,6 @@ digraph {
 	14 [label=on]
 	15 [label="hand-crafted"]
 	16 [label=rules]
-	17 [label=","]
 	18 [label=beyond]
 	19 [label=which]
 	20 [label=the]
@@ -27,11 +25,9 @@ digraph {
 	24 [label=and]
 	25 [label=more]
 	26 [label=unmanageable]
-	27 [label="."]
 	0 -> 5
 	2 -> 1
 	5 -> 2
-	5 -> 3
 	5 -> 4
 	7 -> 6
 	5 -> 7
@@ -44,7 +40,6 @@ digraph {
 	16 -> 14
 	16 -> 15
 	13 -> 16
-	16 -> 17
 	19 -> 18
 	22 -> 19
 	21 -> 20
@@ -54,5 +49,4 @@ digraph {
 	23 -> 24
 	23 -> 25
 	22 -> 26
-	5 -> 27
 }

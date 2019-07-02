@@ -2,7 +2,6 @@ digraph {
 	node [shape=circle]
 	0 [label=ROOT]
 	1 [label=However]
-	2 [label=","]
 	3 [label=there]
 	4 [label=is]
 	5 [label=an]
@@ -12,13 +11,10 @@ digraph {
 	9 [label="non-annotated"]
 	10 [label=data]
 	11 [label=available]
-	12 [label="-LRB-"]
 	13 [label=including]
-	14 [label=","]
 	15 [label=among]
 	16 [label=other]
 	17 [label=things]
-	18 [label=","]
 	19 [label=the]
 	20 [label=entire]
 	21 [label=content]
@@ -27,8 +23,6 @@ digraph {
 	24 [label=World]
 	25 [label=Wide]
 	26 [label=Web]
-	27 [label="-RRB-"]
-	28 [label=","]
 	29 [label=which]
 	30 [label=can]
 	31 [label=often]
@@ -38,10 +32,8 @@ digraph {
 	35 [label=the]
 	36 [label=inferior]
 	37 [label=results]
-	38 [label="."]
 	0 -> 4
 	4 -> 1
-	4 -> 2
 	4 -> 3
 	7 -> 5
 	7 -> 6
@@ -50,13 +42,10 @@ digraph {
 	10 -> 9
 	7 -> 10
 	10 -> 11
-	13 -> 12
 	7 -> 13
-	13 -> 14
 	17 -> 15
 	17 -> 16
 	13 -> 17
-	13 -> 18
 	21 -> 19
 	21 -> 20
 	13 -> 21
@@ -65,8 +54,6 @@ digraph {
 	26 -> 24
 	26 -> 25
 	21 -> 26
-	13 -> 27
-	7 -> 28
 	32 -> 29
 	32 -> 30
 	32 -> 31
@@ -76,5 +63,4 @@ digraph {
 	37 -> 35
 	37 -> 36
 	32 -> 37
-	4 -> 38
 }
