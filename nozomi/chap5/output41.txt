@@ -1,0 +1,8 @@
+この	dst:1	srcs:[]
+書生というのは	dst:7	srcs:['0']
+時々	dst:4	srcs:[]
+我々を	dst:4	srcs:[]
+捕えて	dst:5	srcs:['2', '3']
+煮て	dst:6	srcs:['4']
+食うという	dst:7	srcs:['5']
+話である。	dst:-1	srcs:['1', '6']
