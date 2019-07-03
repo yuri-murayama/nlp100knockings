@@ -1,0 +1,20 @@
+digraph {
+	node [shape=circle]
+	ROOT -> involved
+	involved -> Prior
+	involved -> implementations
+	tasks -> of
+	tasks -> "language-processing"
+	implementations -> tasks
+	involved -> typically
+	coding -> the
+	coding -> direct
+	coding -> hand
+	involved -> coding
+	sets -> of
+	sets -> large
+	coding -> sets
+	rules -> of
+	sets -> rules
+	involved -> "."
+}

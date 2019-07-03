@@ -1,0 +1,32 @@
+digraph {
+	node [shape=circle]
+	ROOT -> made
+	made -> However
+	made -> ","
+	made -> systems
+	rules -> based
+	based -> on
+	rules -> "hand-written"
+	systems -> rules
+	made -> can
+	made -> only
+	made -> be
+	accurate -> more
+	made -> accurate
+	increasing -> by
+	made -> increasing
+	complexity -> the
+	increasing -> complexity
+	rules -> of
+	rules -> the
+	complexity -> rules
+	rules -> ","
+	task -> which
+	task -> is
+	task -> a
+	difficult -> much
+	difficult -> more
+	task -> difficult
+	rules -> task
+	made -> "."
+}

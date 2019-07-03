@@ -1,0 +1,21 @@
+digraph {
+	node [shape=circle]
+	ROOT -> claimed
+	authors -> The
+	claimed -> authors
+	problem -> that
+	years -> within
+	years -> three
+	three -> or
+	three -> five
+	problem -> years
+	problem -> ","
+	translation -> machine
+	problem -> translation
+	problem -> would
+	problem -> be
+	problem -> a
+	problem -> solved
+	claimed -> problem
+	claimed -> "."
+}

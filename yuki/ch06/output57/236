@@ -1,0 +1,37 @@
+digraph {
+	node [shape=circle]
+	ROOT -> creating
+	creating -> However
+	creating -> ","
+	data -> more
+	creating -> data
+	input -> to
+	creating -> input
+	systems -> to
+	systems -> "machine-learning"
+	creating -> systems
+	requires -> simply
+	creating -> requires
+	increase -> a
+	increase -> corresponding
+	worked -> increase
+	number -> in
+	number -> the
+	increase -> number
+	"man-hours" -> of
+	number -> "man-hours"
+	requires -> worked
+	requires -> ","
+	increases -> generally
+	increases -> without
+	increases -> significant
+	requires -> increases
+	complexity -> in
+	complexity -> the
+	increases -> complexity
+	process -> of
+	process -> the
+	process -> annotation
+	complexity -> process
+	creating -> "."
+}

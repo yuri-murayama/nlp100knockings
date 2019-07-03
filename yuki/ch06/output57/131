@@ -1,0 +1,26 @@
+digraph {
+	node [shape=circle]
+	ROOT -> gone
+	result -> As
+	result -> a
+	gone -> result
+	gone -> ","
+	deal -> a
+	deal -> great
+	gone -> deal
+	research -> of
+	deal -> research
+	gone -> has
+	methods -> into
+	gone -> methods
+	more -> of
+	methods -> more
+	learning -> effectively
+	more -> learning
+	amounts -> from
+	amounts -> limited
+	learning -> amounts
+	data -> of
+	amounts -> data
+	gone -> "."
+}

@@ -1,0 +1,36 @@
+digraph {
+	node [shape=circle]
+	ROOT -> set
+	corpus -> A
+	set -> corpus
+	plural -> "-LRB-"
+	corpus -> plural
+	plural -> ","
+	corpora -> "``"
+	plural -> corpora
+	corpora -> "''"
+	plural -> "-RRB-"
+	set -> is
+	set -> a
+	documents -> of
+	set -> documents
+	sentences -> "-LRB-"
+	sentences -> or
+	sentences -> sometimes
+	sentences -> ","
+	sentences -> individual
+	documents -> sentences
+	sentences -> "-RRB-"
+	"hand-annotated" -> that
+	"hand-annotated" -> have
+	"hand-annotated" -> been
+	documents -> "hand-annotated"
+	values -> with
+	values -> the
+	values -> correct
+	"hand-annotated" -> values
+	learned -> to
+	learned -> be
+	"hand-annotated" -> learned
+	set -> "."
+}

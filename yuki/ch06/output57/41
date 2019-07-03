@@ -1,0 +1,26 @@
+digraph {
+	node [shape=circle]
+	ROOT -> conducted
+	research -> Little
+	research -> further
+	conducted -> research
+	translation -> in
+	translation -> machine
+	research -> translation
+	conducted -> was
+	"1980s" -> until
+	"1980s" -> the
+	"1980s" -> late
+	conducted -> "1980s"
+	"1980s" -> ","
+	developed -> when
+	machine -> the
+	machine -> first
+	machine -> statistical
+	developed -> machine
+	systems -> translation
+	machine -> systems
+	developed -> were
+	"1980s" -> developed
+	conducted -> "."
+}

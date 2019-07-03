@@ -1,0 +1,23 @@
+digraph {
+	node [shape=circle]
+	ROOT -> take
+	algorithms -> These
+	take -> algorithms
+	input -> as
+	take -> input
+	set -> a
+	set -> large
+	take -> set
+	features -> of
+	features -> "``"
+	set -> features
+	features -> "''"
+	generated -> that
+	generated -> are
+	features -> generated
+	data -> from
+	data -> the
+	data -> input
+	generated -> data
+	take -> "."
+}

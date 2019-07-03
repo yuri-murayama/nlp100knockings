@@ -1,0 +1,30 @@
+digraph {
+	node [shape=circle]
+	ROOT -> is
+	particular -> In
+	is -> particular
+	is -> ","
+	is -> there
+	limit -> a
+	is -> limit
+	complexity -> to
+	complexity -> the
+	limit -> complexity
+	systems -> of
+	complexity -> systems
+	systems -> based
+	rules -> on
+	rules -> "hand-crafted"
+	based -> rules
+	rules -> ","
+	which -> beyond
+	become -> which
+	systems -> the
+	become -> systems
+	rules -> become
+	unmanageable -> more
+	more -> and
+	more -> more
+	become -> unmanageable
+	is -> "."
+}

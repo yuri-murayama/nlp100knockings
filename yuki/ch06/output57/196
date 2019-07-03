@@ -1,0 +1,30 @@
+digraph {
+	node [shape=circle]
+	ROOT -> focused
+	focused -> Increasingly
+	focused -> ","
+	focused -> however
+	focused -> ","
+	focused -> research
+	focused -> has
+	models -> on
+	models -> statistical
+	focused -> models
+	models -> ","
+	make -> which
+	models -> make
+	decisions -> soft
+	decisions -> ","
+	decisions -> probabilistic
+	make -> decisions
+	attaching -> based
+	attaching -> on
+	make -> attaching
+	weights -> "real-valued"
+	attaching -> weights
+	feature -> to
+	feature -> each
+	feature -> input
+	attaching -> feature
+	focused -> "."
+}

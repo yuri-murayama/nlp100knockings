@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle]
+	ROOT -> applied
+	classes -> Many
+	classes -> different
+	applied -> classes
+	algorithms -> of
+	algorithms -> machine
+	algorithms -> learning
+	classes -> algorithms
+	applied -> have
+	applied -> been
+	tasks -> to
+	tasks -> NLP
+	applied -> tasks
+	applied -> "."
+}

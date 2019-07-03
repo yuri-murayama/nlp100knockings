@@ -1,0 +1,31 @@
+digraph {
+	node [shape=circle]
+	ROOT -> able
+	algorithms -> Such
+	able -> algorithms
+	able -> are
+	learn -> to
+	able -> learn
+	data -> from
+	learn -> data
+	"hand-annotated" -> that
+	"hand-annotated" -> has
+	"hand-annotated" -> not
+	"hand-annotated" -> been
+	data -> "hand-annotated"
+	answers -> with
+	answers -> the
+	answers -> desired
+	"hand-annotated" -> answers
+	learn -> ","
+	learn -> or
+	learn -> using
+	combination -> a
+	using -> combination
+	data -> of
+	data -> annotated
+	annotated -> and
+	annotated -> "non-annotated"
+	combination -> data
+	able -> "."
+}
