@@ -12,17 +12,15 @@ client = MongoClient('localhost', 27017)
 # データベースを作成 (名前: my_database)
 db = client.my_database
 
-
 # コレクションを作成 (名前: my_collection)
 co = db.my_collection
 
-"""
+
 # jsonファイルを読み込み、ドキュメントを格納
 with open('artist.json') as f:
 	for line in f:	
 		df = json.loads(line)
 		co.insert_one(df)
-"""
 
 # indexを付与
 print(co)
@@ -30,6 +28,3 @@ co.create_index([("name", ASCENDING)])
 co.create_index([("aliases.name", ASCENDING)])
 co.create_index([("tags.value", ASCENDING)])
 co.create_index([("rating.value", ASCENDING)])
-#db.my_collection.createIndex([("name", 1)])
-#db.my_collection.getIndexes()
-#db.my_collection.createIndex({'name': 1}) #, aliases.name:1, tags.value:1, rating.value:1 } )
