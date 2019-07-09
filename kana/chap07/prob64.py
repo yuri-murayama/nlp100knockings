@@ -5,21 +5,31 @@ import json
 from pymongo import MongoClient
 from pymongo import ASCENDING, DESCENDING
 
+#サーバー立ち上げ:sudo mongod --dbpath /var/lib/mongodb --logpath /var/log/mongodb.log
+
 client = MongoClient('localhost', 27017)
 
 # データベースを作成 (名前: my_database)
 db = client.my_database
 
+
 # コレクションを作成 (名前: my_collection)
 co = db.my_collection
 
+"""
 # jsonファイルを読み込み、ドキュメントを格納
 with open('artist.json') as f:
 	for line in f:	
 		df = json.loads(line)
 		co.insert_one(df)
-	
-print(co.find_one())
+"""
 
 # indexを付与
-#db.collection.createIndex( { name: 1, aliases.name:1, tags.value:1, rating.value:1 } )
+print(co)
+co.create_index([("name", ASCENDING)])
+co.create_index([("aliases.name", ASCENDING)])
+co.create_index([("tags.value", ASCENDING)])
+co.create_index([("rating.value", ASCENDING)])
+#db.my_collection.createIndex([("name", 1)])
+#db.my_collection.getIndexes()
+#db.my_collection.createIndex({'name': 1}) #, aliases.name:1, tags.value:1, rating.value:1 } )
