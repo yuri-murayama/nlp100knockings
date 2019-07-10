@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>100本ノック</title>
+    </head>
+
+    <body>
+        <h3> 検索 </h3>
+        <form action="http://localhost:8080/cgi-bin/nlp69.py" method="post">
+            <p> アーティスト名(別名) : 
+                <input type="text" name="name">
+            </p>
+
+            <p> タグ : 
+                <input type="text" name="tags">
+            </p>
+
+            <p>
+                <input type="submit" value="検索" name="submit">
+                <input type="reset" name="reset">
+            </p>
+        </form>
+    </body>
+</html>
