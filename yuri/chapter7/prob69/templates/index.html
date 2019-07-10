@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='ja'>
+<head>
+    <meta charset='UTF-8'>
+    <title>言語処理100本ノック69</title>
+</head>
+<body>
+    <form action='/' method='post' class='form-control'>
+        <div class='form-group'>
+            <label for='name'>アーティスト名・別名</label>
+            <input type='text' class='form-control' id='name' name='name'>
+        </div>
+        <div class='form-group'>
+            <label for='area'>活動場所</label>
+            <input type='text' class='form-control' id='area' name='area'>
+        </div>
+        <div class='form-group'>
+            <label for='tag'>タグ</label>
+            <input type='text' class='form-control' id='tag' name='tag'>
+        </div>
+        <button type='submit' class='btn btn-default'>検索</button>
+    </form>
+
+    {% if posts %}
+    <table class='table table-hover' rules='rows'>
+        <TR>
+            <TD>アーティスト名</TD>
+            <TD>別名</TD>
+            <TD>活動場所</TD>
+            <TD>活動開始年</TD>
+            <TD>活動終了年</TD>
+            <TD>タグ</TD>
+            <TD>レーティング</TD>
+        </TR>
+
+        {% for post in posts %}
+        <TR>
+            <TD>{{post.name}}</TD>
+            <TD>{{post.aliases}}</TD>
+            <TD>{{post.area}}</TD>
+            <TD>{{post.begin}}</TD>
+            <TD>{{post.end}}</TD>
+            <TD>{{post.tags}}</TD>
+            <TD>{{post.rating}}</TD>
+        </TR>
+        {% endfor %}
+    </table>
+    {% endif %}  
+</body>
+</html>
