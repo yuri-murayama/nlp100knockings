@@ -47,17 +47,10 @@ def find_artists(name, area, tag):
     if area != '':
         condition_lst.append({'area': area})
     if tag != '':
-        condition_lst.append({'tags.value': tag})
-
-    if len(condition_lst) == 3:
-        condition = {'$and': [condition_lst[0], condition_lst[1], condition_lst[2]]}
-    elif len(condition_lst) == 2:
-        condition = {'$and': [condition_lst[0], condition_lst[1]]}
-    else:
-        condition = condition_lst[0]
+        condition_lst.append({'tags.value': tag}) 
 
     posts = []
-    for post in collection.find(condition).sort('rating.value', -1):
+    for post in collection.find({'$and': condition_lst}).sort('rating.value', -1):
         posts.append(reshape(post))
 
     return posts
