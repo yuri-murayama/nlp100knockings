@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang='ja'>
+<head>
+    <meta charset='UTF-8'>
+    <title>言語処理100本ノック69</title>
+</head>
+<body>
+    <p>artistデータベース検索</p>
+
+    <form action='/' method='post' class='form-control'>
+        <div class='form-group'>
+            <label for='name'>アーティスト名・別名</label>
+            <input type='text' class='form-control' id='name' name='name'>
+        </div>
+        <div class='form-group'>
+            <label for='area'>活動場所</label>
+            <input type='text' class='form-control' id='area' name='area'>
+        </div>
+        <div class='form-group'>
+            <label for='tag'>タグ</label>
+            <input type='text' class='form-control' id='tag' name='tag'>
+        </div>
+        <button type='submit' class='btn btn-default'>検索</button>
+    </form>
+
+ 	{% if results %}	
+		
+		<table border="1" style="border-collapse: collapse">
+        <TR>
+            <TD>アーティスト名</TD>
+            <TD>別名</TD>
+            <TD>活動場所</TD>
+            <TD>活動開始年</TD>
+            <TD>活動終了年</TD>
+            <TD>タグ</TD>
+            <TD>レーティング</TD>
+        </TR>
+        {% for result in results %}
+        		<tr>
+            		<td>{{ result.name }}</td>
+            		<td>{{ result.aliases_name }}</td>
+            		<td>{{ result.area }}</td>
+                <td>{{ result.begin }}</td>
+                <td>{{ result.end }}</td>
+            		<td>{{ result.tag }}</td>
+            		<td>{{ result.rating }}</td>
+            	</tr> 
+          {% if result.name == "ISSA" %}
+            {% if result.area == "Japan" %}
+            <h2>おめでとうございます。写真付きです。</h2>
+              <img src='/static/images/issa_picture.jpg' title = "DA PUMP ISSA">
+            {% endif %} 
+          {% endif %} 
+  		{% endfor %}
+  		</table>
+  	{% endif %}	
+  
+	</body>
+</html>
