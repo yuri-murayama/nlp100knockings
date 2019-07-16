@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from pymongo import MongoClient
+from pymongo import ASCENDING
 import json
 
 INPUT_PATH = "./input/artist.json"
@@ -18,22 +19,11 @@ with open(INPUT_PATH) as f:
             print("{} / {}".format(count, length))
 
         df = json.loads(line)
-
-        if 'aliases' not in df:
-            df['aliases'] = [{'name':''}]
-
-        if 'tags' not in df:
-            df['tags'] = [{'value':''}]
-
-        if 'rating' not in df:
-            df['rating'] = {'value':''}
-
-        post = {'name' : df['name'],
-                'aliases_name' : [a['name'] for a in df['aliases']],
-                'tags_value' : [t['value'] for t in df['tags']],
-                'rating_value' : df['rating']['value']
-            }
-
-        collection.insert_one(post)
+        collection.insert_one(df)
 
         count += 1
+
+collection.create_index([("name", ASCENDING)])
+collection.create_index([("aliases.name", ASCENDING)])
+collection.create_index([("tags.value", ASCENDING)])
+collection.create_index([("rating.value", ASCENDING)])
